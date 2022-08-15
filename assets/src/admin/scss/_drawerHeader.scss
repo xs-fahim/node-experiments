@@ -1,0 +1,64 @@
+.getgenie {
+    .getgenie-sidebar-header {
+        min-height: 60px;
+        display: flex;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-bottom: 1px solid #d7d7d7;
+        background-color: white;
+        .main-logo{
+            width: 90px;
+            height: 30px;
+        }
+        & > .ant-row {
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            row-gap: 0px;
+            .ant-col {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .getgenie-close-btn {
+                text-align: end;
+                justify-content: flex-end;
+                span {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &-seoBtn {
+            background-color: #ffffff;
+            border: 1px solid #c8d4f7;
+            box-sizing: border-box;
+            border-radius: 17px;
+            font-weight: 500;
+            font-size: 12px;
+            text-align: left;
+            width: 145px;
+            color: #323232;
+            position: relative;
+            right: -20px;
+            &:hover {
+                border-color: #b2bddb;
+                color: #4570f4;
+            }
+            &:focus {
+                color: unset;
+                border-color: unset;
+            }
+            img {
+                width: 31.56px;
+                margin-right: 7px;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .empty-btn-space{
+          width: 140px;
+        }
+    }
+}

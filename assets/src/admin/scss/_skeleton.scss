@@ -1,0 +1,26 @@
+.getgenie {
+    .ant-skeleton-element .ant-skeleton-button {
+        border-radius: 4px;
+    }
+
+    .getgenie-card-skeleton {
+        padding: 10px;
+        .getgenie-generated-outlines-card {
+            padding: 20px;
+            .ant-skeleton-title {
+                margin-left: 0;
+            }
+            .ant-skeleton-element .ant-skeleton-button {
+                border-radius: 10px;
+            }
+            .ant-skeleton-paragraph li,
+            .ant-skeleton-title {
+                border-radius: 10px;
+            }
+        }
+    }
+    .getgenie-single-skeleton {
+        margin-bottom: 10px;
+    }
+}
+

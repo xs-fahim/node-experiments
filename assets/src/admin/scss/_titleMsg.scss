@@ -1,0 +1,21 @@
+.getgenie {
+    .getgenie-sidebar-content {
+        .generateMsg {
+            text-transform: capitalize;
+            color: #323232;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            margin-left: 13px;
+            margin-block-end: 22px;
+
+            .resultNumber {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #999999;
+                margin-left: 5px;
+            }
+        }
+    }
+}

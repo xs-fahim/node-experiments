@@ -1,0 +1,59 @@
+.getgenie {
+    &.getgenie-admin-page {
+        .ant-select-dropdown {
+            z-index: 999999;
+        }
+    }
+    .ant-select-selector {
+        cursor: default;
+    }
+    .ant-select-arrow {
+        & > span {
+            font-size: 8px;
+            color: #000000;
+        }
+    }
+
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+        background-color: #fff;
+        border: 1px solid #dcdcdc;
+        border-radius: 4px;
+    }
+
+    .ant-select {
+        width: 100%;
+        &:hover {
+            .ant-select-selector {
+                border-color: #d9d9d9 !important;
+            }
+        }
+        &-single .ant-select-selector {
+            align-items: center;
+        }
+        &-selection {
+            &-search {
+                display: flex;
+                align-items: center;
+            }
+        }
+        &-single:not(.ant-select-customize-input) .ant-select-selector {
+            width: 100%;
+            padding: 0 11px;
+        }
+        &.getgenie-select .ant-select-selector {
+            height: 45px;
+        }
+        &-open {
+            .ant-select-arrow {
+                transform: rotate(180deg);
+            }
+        }
+        &-focused {
+            &:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+                //box-shadow: 0 0 0 2px #4571f434;
+                box-shadow: none;
+                border: 1px solid #4570f4;
+            }
+        }
+    }
+}

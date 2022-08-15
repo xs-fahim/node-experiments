@@ -1,0 +1,34 @@
+.getgenie {
+    .getgenie-checkbox {
+        .ant-checkbox-wrapper {
+            padding: 6px 12px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 13px;
+            line-height: 18px;
+            color: #323232;
+            position: relative;
+
+            + .ant-checkbox-wrapper {
+                margin-left: 0;
+            }
+            .ant-checkbox{
+                top: 5px;
+            }
+        }
+        .ant-checkbox-checked .ant-checkbox-inner {
+            background-color: #4570f4;
+            border-color: #4570f4;
+        }
+    }
+    .getgenie-checkbox-container {
+        border-left: 3px solid transparent;
+        &.active {
+            &:focus-within {
+                background-color: #e9eeff;
+                border-left: 3px solid #4570f4;
+            }
+        }
+    }
+}

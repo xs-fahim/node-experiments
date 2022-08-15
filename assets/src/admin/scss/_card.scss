@@ -1,0 +1,89 @@
+.getgenie {
+    .getgenie-card {
+        .ant-row {
+            row-gap: 10px !important;
+        }
+        .ant-card.ant-card-bordered {
+            //transition: all 0.4s;
+            border-radius: 4px;
+            h5 {
+                // color: #323232;
+                // font-weight: 500;
+                // font-size: 14px;
+                // line-height: 17px;
+                margin-bottom: 0;
+                word-break: break-word;
+            }
+            p {
+                // color: #7c7c7c;
+                // font-weight: 400;
+                // font-size: 12px;
+                margin: 0;
+                // line-height: 18px;
+            }
+            &.active {
+                background-color: #4570f4;
+                h5,
+                p {
+                    color: #fff;
+                }
+            }
+            .ant-card-body {
+                padding: 13px 16px;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .getgenie-card-container {
+        padding-inline: 14px;
+        padding-block: 19px;
+        background-color: #fff;
+        color: #323232;
+        flex: auto;
+
+        .ant-card.ant-card-bordered {
+            background: #f0f4fb;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 4px;
+            &.active {
+                background: #f0f4fb;
+                outline: 1px solid #4570f4;
+                position: relative;
+                h5,
+                p {
+                    color: #323232 !important;
+                }
+                &::after {
+                    font-family: dashicons;
+                    display: grid;
+                    position: absolute;
+                    content: "\f147";
+                    width: 20px;
+                    height: 20px;
+                    top: -10px;
+                    right: -10px;
+                    background-color: #4570f4;
+                    color: #fff;
+                    border-radius: 50%;
+                    place-items: center;
+                }
+            }
+            .generated-content {
+                color: #323232;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 17px;
+                padding: 3px 0;
+                margin-bottom: 3px;
+            }
+        }
+        .characters {
+            .ant-card.ant-card-bordered {
+                cursor: grab;
+            }
+        }
+    }
+}

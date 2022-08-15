@@ -1,0 +1,71 @@
+.getgenie {
+    .getgenie-sidebar-content {
+        .genie-nav-container {
+            padding-block-start: 11px;
+            padding-inline: 9px 0;
+            &.main {
+                .ant-radio-button-wrapper {
+                    cursor: default;
+                }
+            }
+            .ant-radio-group {
+                display: flex;
+
+                .ant-radio-button-wrapper {
+                    background-color: transparent;
+                    border: none;
+                    text-transform: capitalize;
+                    color: #323232;
+                    font-weight: bold;
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                    padding: 0;
+                    margin-left: 23px;
+
+                    &.selected {
+                        color: #4570f4;
+                    }
+                    &:not(:last-child) {
+                        margin-inline-end: 23px;
+                    }
+                    &:focus-within {
+                        box-shadow: none;
+                    }
+                    &.ant-radio-button-wrapper-checked {
+                        color: #4570f4;
+                        position: relative;
+                        &::after {
+                            display: block;
+                            position: absolute;
+                            content: " ";
+                            height: 3px;
+                            width: 58px;
+                            background-color: #4570f4;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            border-top-left-radius: 5px;
+                            border-top-right-radius: 5px;
+                        }
+                        &:focus-within {
+                            border-color: transparent;
+                            background-color: transparent;
+                            box-shadow: none;
+                        }
+                    }
+                    .ant-radio-button-input {
+                        &:focus {
+                            border-color: transparent;
+                            background-color: transparent;
+                            box-shadow: none;
+                        }
+                    }
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

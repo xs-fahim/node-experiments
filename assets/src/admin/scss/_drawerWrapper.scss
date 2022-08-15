@@ -1,0 +1,109 @@
+.getgenie {
+    .ant-tooltip {
+        padding-left: 5px;
+    }
+    .getgenie-drawer {
+         :not(.is-fullscreen-mode) & {
+            top: 92px;
+        }
+        .is-fullscreen-mode & {
+            top: 60px;
+        }
+        .ant-drawer-content-wrapper {
+            top: -60px;
+            border-left: none;
+        }
+        .ant-drawer-content {
+            overflow: visible;
+        }
+        .ant-drawer-footer {
+            padding: 0;
+        }
+        .ant-drawer-body {
+            background-color: #f0f4fb;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            .getgenie-sidebar-content {
+                display: flex;
+                height: 100%;
+                .getgenie-title-form {
+                    display: flex;
+                    flex-direction: column;
+                    flex: auto;
+                }
+            }
+            h3 {
+                font-weight: bold;
+                font-size: 16px;
+                margin: 10px 17px;
+            }
+            &--content {
+                padding-block-start: 0;
+            }
+            &--heading {
+                padding-block-end: 0;
+            }
+            form {
+                flex: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            .ant-drawer-body--content {
+                padding-inline: 12px;
+                .getgenie-card {
+                    .ant-col {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .ant-divider.ant-divider-horizontal {
+            margin-block: 0;
+            padding-bottom: 24px;
+            background-color: #f0f4fb;
+            border-color: #d7d7d7;
+        }
+        .genie-sidebar-template {
+            h3 {
+                background-color: #f0f4fb;
+                padding-inline: 12px;
+            }
+            h3 {
+                padding-block-end: 11px;
+            }
+        }
+    }
+    &.getgenie-admin-page {
+        .getgenie-drawer {
+            top: 32px;
+            z-index: 99999;
+            .ant-drawer-content-wrapper {
+                top: 0;
+            }
+        }
+        .ant-tooltip {
+            z-index: 999999;
+            padding-left: 8px;
+        }
+    }
+    .ant-drawer-content-wrapper {
+        border-left: 1px solid #ededed;
+        // &:not(.is-fullscreen-mode) & {
+        //     padding-bottom: 32px;
+        // }
+        .is-fullscreen-mode & {
+            padding-bottom: initial;
+        }
+        .ant-drawer-header {
+            padding: 14px 24px;
+            min-height: 60px;
+        }
+    }
+    .ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+        box-shadow: none;
+        max-width: 80%;
+        min-width: 250px;
+    }
+}

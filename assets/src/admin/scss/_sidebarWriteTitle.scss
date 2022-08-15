@@ -1,0 +1,68 @@
+.getgenie {
+    .getgenie-sidebar-content {
+        .getgenie-title-form {
+            height: 100%;
+            @include scrollbar-thumb;
+            overflow-y: scroll;
+            padding-bottom: 66px;
+            input {
+                border: 1px solid #d9d9d9;
+            }
+        }
+        .getgenie-screen-content {
+            &.title {
+                .ant-row {
+                    padding: 0 13px;
+                }
+            }
+            &.intro {
+                padding: 12px 13px;
+                padding-top: 0;
+            }
+            .selectedCountry {
+                .ant-select-selector {
+                    height: 32px;
+                }
+                .ant-select-selection-item {
+                    font-weight: 400;
+                    font-size: 13px;
+                    letter-spacing: 0.15px;
+                    color: #323232;
+                }
+            }
+            .getgenie-analyze-btn {
+                height: 36px;
+                border-radius: 4px;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                width: 100%;
+                background-color: #4570f4;
+                color: #ffffff;
+                margin-bottom: 5px;
+                &:hover {
+                    background-color: transparent;
+                    color: #4570f4;
+                    border: 1px solid #4570f4;
+                }
+            }
+            .submit-btn span {
+                margin-right: 15px;
+            }
+        }
+        .genie-input .ant-form-item-control-input-content input {
+            height: 46px;
+        }
+        .getgenie-title-form {
+            .ant-row.ant-form-item {
+                margin-bottom: 17px;
+            }
+            .creativityLevel label,
+            .NumberInput label {
+                font-weight: 500;
+                font-size: 13px;
+                color: #323232;
+            }
+        }
+    }
+}

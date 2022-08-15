@@ -1,0 +1,9 @@
+.getgenie {
+    .getgenie-sidebar-content {
+        .ant-form-item-control-input-content {
+            textarea {
+                @include input;
+            }
+        }
+    }
+}

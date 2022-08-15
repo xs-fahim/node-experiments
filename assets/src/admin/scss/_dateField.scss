@@ -1,0 +1,11 @@
+.getgenie {
+    .ant-picker {
+        &.ant-picker-focused {
+            border-color: #4570f4;
+            box-shadow: 0 0 0 2px #4571f434;
+        }
+        &:hover{
+            border-color: #4570f4;
+        }
+    }
+}

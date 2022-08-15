@@ -1,0 +1,23 @@
+.getgenie {
+    // .getgenie-info-tooltip {
+    //     margin-left: 10px;
+    //     color: #4570f4;
+    //     width: 20px;
+    //     height: 20px;
+    //     border: 1px solid;
+    //     font-size: 12px;
+    //     border-radius: 50%;
+    //     text-align: center;
+    // }
+    .getgenie-tooltip-icon{
+        margin-left: 5px;
+        font-size: 18px;
+        color: #4570f4;
+        height: unset;
+        width: unset;
+    }
+    .ant-tooltip-inner{
+        text-align: center;
+        background-color: #000;
+    }
+}

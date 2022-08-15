@@ -1,0 +1,35 @@
+.getgenie {
+    .getgenie-dashboard-header {
+        padding: 0 30px;
+        transition: all 0.4s;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(30px);
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: -20px;
+
+        .getgenie-header-row {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            align-items: center;
+        }
+        img {
+            height: 50px;
+            margin-top: 5px;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .getgenie {
+        .getgenie-plugin-header{
+            &>div{
+                &[aria-hidden="true"]{
+                    display: none;
+                }
+            }
+            .ant-affix{
+                position: relative !important;
+                top: 0 !important;
+            }
+        }
+    }
+}

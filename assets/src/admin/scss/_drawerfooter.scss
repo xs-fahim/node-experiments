@@ -1,0 +1,21 @@
+.getgenie {
+    .getgenie-sidebar-footer {
+        box-shadow: 0px -4px 12px rgba(69, 112, 244, 0.15);
+        background-color: #fff;
+        padding-block: 13px 17px;
+        padding-inline: 17px;
+        display: grid;
+        align-items: center;
+        &.getgenie-sidebar-footer-grid {
+            grid-template-columns: 1fr 1fr;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    &.getgenie-admin-page {
+        .getgenie-sidebar-footer {
+            display: none;
+        }
+    }
+}

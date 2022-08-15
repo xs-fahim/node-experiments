@@ -1,0 +1,116 @@
+.getgenie {
+    &.getgenie-admin-page {
+        .getgenie-history-modal {
+            .ant-modal-close-x {
+                width: 40px;
+                line-height: 35px;
+            }
+            .ant-modal-body {
+                padding-top: 11px;
+                overflow-y: scroll;
+                @include scrollbar-thumb;
+                max-height: 400px;
+            }
+            .ant-modal-content {
+                border-radius: 4px;
+                max-height: 400px;
+            }
+            .getgenie-modal-info {
+                font-size: 16px;
+            }
+            .getgenie-modal-contents {
+                align-items: center;
+                margin-top: 32px;
+                justify-content: space-between;
+            }
+            .getgenie-icon-close {
+                font-size: 12px;
+                color: #323232;
+                font-weight: 600;
+            }
+            .getgenie-icon-copy {
+                float: right;
+                &::before {
+                    cursor: pointer;
+                    color: #4570f4;
+                }
+            }
+            .getgenie-modal-label {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #929292;
+            }
+            .getgenie-text {
+                font-size: 14px;
+                line-height: 16px;
+                color: #323232;
+                border: 1px solid #ececec;
+                box-sizing: border-box;
+                border-radius: 4px;
+                padding: 14px 16px;
+                display: flex;
+                justify-content: space-between;
+                &.genieText {
+                    margin-bottom: 20px;
+                }
+                &.content {
+                    white-space: pre-wrap;
+                }
+            }
+            .getgenie-modal-creativity-level {
+                @include badge;
+            }
+            .getgenie-modal-date {
+                margin-top: 15px;
+                .gg-value {
+                    font-weight: 400;
+                }
+                .gg-label {
+                    font-weight: 500;
+                    font-size: 13px;
+                    color: #323232;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+    .getgenie-confirm-modal {
+        .ant-modal-content {
+            border-radius: 4px;
+        }
+        .ant-modal-confirm-title {
+            font-weight: 600;
+            font-size: 20px;
+            color: #05092b;
+        }
+        .ant-modal-confirm-content {
+            font-weight: 400;
+            font-size: 15px;
+            color: #595a62;
+        }
+        .ant-modal-confirm-body>.anticon {
+            margin-top: 4px;
+        }
+        button {
+            border-radius: 3px;
+            font-weight: 400;
+            font-size: 15px;
+            &.ant-btn-primary {
+                &:hover,
+                &:focus {
+                    background-color: #4570f4;
+                    border-color: #4570f4;
+                }
+            }
+            &.ant-btn-default {
+                color: #05092b;
+                &:hover,
+                &:focus {
+                    border-color: #4570f4;
+                    color: inherit;
+                }
+            }
+        }
+    }
+}

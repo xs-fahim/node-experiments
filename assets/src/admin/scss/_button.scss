@@ -1,0 +1,156 @@
+@mixin cancelBtn {
+    background-color: #fff;
+    border-color: hsla(0, 0%, 0%, 0.12);
+    color: #4570f4;
+}
+@mixin button {
+    height: 36px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    border-color: #4570f4;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        color: #fff;
+        border-color: #4570f4;
+        background-color: #4570f4;
+    }
+    &[disabled] {
+        color: #c4c4c4;
+        border-color: #c4c4c4;
+    }
+}
+
+.getgenie {
+    &#xs-custom-toolbar {
+        button {
+            @include button;
+            background-color: #357ab5;
+            color: #fff;
+            height: 38px;
+            margin-left: 2rem;
+            &:hover {
+                color: #fff;
+                background-color: #357ab5;
+            }
+        }
+    }
+
+    .getgenie-toolbar-write-btn {
+        span:first-child {
+            margin-right: 12px;
+        }
+    }
+    .sentence-rewrite-btn {
+        max-height: 40px;
+        align-self: center;
+        img {
+            max-height: 100%;
+        }
+    }
+    .getgenie-sidebar-content {
+        .ant-form-item-control-input-content {
+            button {
+                @include button;
+                width: 100%;
+                background-color: transparent;
+                color: #4570f4;
+            }
+        }
+        .add-outline-btn {
+            @include button;
+            height: auto;
+            width: auto;
+            padding: 2px 8px;
+            font-size: 12px;
+            text-transform: capitalize;
+            margin-left: auto;
+            display: block;
+            background-color: transparent;
+            color: #4570f4;
+        }
+        .ant-form-item-control-input-content button[disabled] {
+            pointer-events: none;
+        }
+    }
+
+    .getgenie-sidebar-footer {
+        .nextBtn {
+            background: #4868ca;
+            color: #fff;
+
+            &:hover {
+                color: #fff;
+            }
+
+            &[disabled] {
+                background-color: #979797;
+            }
+        }
+
+        button {
+            @include button;
+            font-size: 14px;
+            letter-spacing: 1.25px;
+        }
+
+        .btnGrp {
+            display: flex;
+            justify-content: end;
+        }
+
+        .insertBtn {
+            @include cancelBtn;
+            border: none;
+            height: auto;
+            &:not(.ant-tooltip-disabled-compatible-wrapper) {
+                border-bottom: 1px solid;
+            }
+            button[disabled] {
+                border-color: transparent;
+                background: transparent;
+                border-bottom: 1px solid;
+                padding: 0;
+                height: auto;
+            }
+            border-radius: 0;
+            padding: 0;
+            margin-right: 15px;
+            &:hover {
+                color: #4570f4;
+                background-color: #fff;
+            }
+        }
+
+        .prevBtn {
+            @include cancelBtn;
+            width: 42px;
+            padding: 0;
+        }
+    }
+
+    .getgenie-search-btn {
+        @include button;
+        @include cancelBtn;
+        background-color: #4570f4;
+        color: #fff;
+    }
+
+    // temporary, later make a mixin for normal and outline button styles
+    .getgenie-loading-state button {
+        height: 36px;
+        border-radius: 4px;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        background-color: #4570f4;
+        color: #ffffff;
+        margin-bottom: 5px;
+        &:hover {
+            background-color: transparent;
+            color: #4570f4;
+            border: 1px solid #4570f4;
+        }
+    }
+}

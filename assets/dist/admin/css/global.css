@@ -1,0 +1,39 @@
+#adminmenu .toplevel_page_getgenie.wp-has-submenu a.menu-top .wp-menu-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#adminmenu .toplevel_page_getgenie.wp-has-submenu a.menu-top .wp-menu-image img {
+    padding: 0 !important;
+    width: 16px;
+}
+.getgenie-notice-wrapper.notice{
+    margin-bottom: 15px;
+}
+.getgenie-notice .notice-icon {
+    width: 20px;
+    margin-right: 8px;
+}
+.getgenie-notice .notice {
+    margin-bottom: 15px;
+}
+.getgenie-notice .notice-link {
+    display: flex;
+    padding: 8px 0;
+}
+.getgenie-notice .notice-message {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.getgenie-notice .notice-link a {
+    border-radius: 2px;
+    border-color: #4570f4;
+    font-size: 14px;
+    background: #4868ca;
+    color: #fff;
+    margin-right: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+}

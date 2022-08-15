@@ -1,0 +1,22 @@
+.getgenie {
+    .getgenie-analyzeKeywordScreen {
+        height: 100%;
+        width: 330px;
+        top: 0;
+        background-color: #fff;
+        .getgenie-seo-container {
+            height: 100%;
+            padding-bottom: 120px;
+            overflow-y: scroll;
+            @include scrollbar-thumb;
+        }
+        &.hide {
+            display: none;
+        }
+        .getgenie-empty-tag{
+            height: 60px;
+            width: 330px;
+            border-bottom: 1px solid #d7d7d7;
+        }
+    }
+}

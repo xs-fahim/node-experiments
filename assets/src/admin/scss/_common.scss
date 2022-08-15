@@ -1,0 +1,185 @@
+body {
+    &.toplevel_page_getgenie {
+        background-color: #f0f2f5;
+    }
+}
+
+body.make-cursor-wait {
+    cursor: wait;
+    .components-toolbar.getgenie button{
+        pointer-events: none;
+    }
+}
+
+body.disable-scroll {
+    overflow: hidden;
+    .getgenie-dashboard-templates {
+        padding-right: 47px;
+    }
+}
+
+.xs-draggable {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: red;
+    z-index: 9;
+    opacity: 0;
+    cursor: col-resize;
+}
+
+#xs-custom-toolbar {
+    flex: 100%;
+}
+
+.getgenie-toolbar-shortcut {
+    margin-left: 40px;
+}
+
+.getgenie {
+    .getgenie-spin-center {
+        text-align: center;
+        //margin: 0 50px;
+    }
+    .getgenie-license-notice{
+        margin: 10px 30px;
+        border-radius: 4px;
+    }
+    .getgenie-sidebar-content {
+        .ant-form-item {
+            position: relative;
+        }
+    }
+    .getgenie-not-found-title {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .ant-form-item-label {
+        text-align: left;
+        label {
+            font-weight: 500;
+            font-size: 13px;
+            color: #323232;
+        }
+    }
+    input[type="checkbox"]:focus,
+    input[type="color"]:focus,
+    input[type="date"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="datetime"]:focus,
+    input[type="email"]:focus,
+    input[type="month"]:focus,
+    input[type="number"]:focus,
+    input[type="password"]:focus,
+    input[type="radio"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="text"]:focus,
+    input[type="time"]:focus,
+    input[type="url"]:focus,
+    input[type="week"]:focus,
+    select:focus,
+    textarea:focus {
+        box-shadow: none;
+        outline: none;
+    }
+    .ant-btn-primary {
+        background-color: #4570f4;
+    }
+    .ant-input:focus,
+    .ant-input-focused {
+        box-shadow: unset;
+        outline: none;
+    }
+    .ant-divider.ant-divider-horizontal {
+        background-color: transparent;
+    }
+    .ant-popover-placement-top {
+        overflow-x: hidden;
+    }
+    .ant-popover {
+        box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 1px;
+        outline: 8px solid white;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        @include scrollbar-thumb;
+        &.ant-popover-placement-top {
+            padding-bottom: 0;
+        }
+        &-inner-content {
+            padding: 12px 10px;
+        }
+    }
+    .ant-dropdown-menu-item {
+        padding: 0;
+    }
+    //for outline tab edit menu
+    .ant-dropdown-menu.ant-dropdown-menu-root {
+        border-radius: 4px;
+        .ant-btn.ant-btn-text {
+            color: #323232;
+            font-size: 13px;
+            font-weight: 400;
+            text-align: left;
+            width: 100%;
+        }
+    }
+    .ant-divider.ant-divider-horizontal {
+        background-color: transparent;
+    }
+    .ant-popover-placement-top {
+        overflow-x: hidden;
+    }
+    .ant-popover {
+        box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 1px;
+        outline: 8px solid white;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: white;
+        @include scrollbar-thumb;
+        &.ant-popover-placement-top {
+            padding-bottom: 0;
+        }
+        &-inner-content {
+            padding: 12px 10px;
+        }
+    }
+    .ant-popover-placement-bottom,
+    .ant-popover-placement-bottomLeft,
+    .ant-popover-placement-bottomRight {
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .ant-popover-placement-right,
+    .ant-popover-placement-rightTop,
+    .ant-popover-placement-rightBottom {
+        padding-left: 0;
+    }
+    .ant-popover-placement-left,
+    .ant-popover-placement-leftTop,
+    .ant-popover-placement-leftBottom {
+        padding-right: 0;
+    }
+    .ant-tooltip {
+        .ant-tooltip-arrow-content::before {
+            display: none;
+        }
+    }
+    .getgenie-loading-state {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .ant-notification {
+        z-index: 99999;
+    }
+    .ant-spin,
+    .ant-spin-dot-item {
+        color: #4570f4;
+    }
+}

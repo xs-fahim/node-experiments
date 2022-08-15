@@ -1,0 +1,33 @@
+{
+    "name": "wpmet/getgenie",
+    "description": "This review plugin helps you to interact with your users with improved your blog comments.",
+    "license": "free",
+    "homepage": "https://products.wpmet.com/getgenie/",
+    "support": {
+        "issues": "https://products.wpmet.com/getgenie/",
+        "source": "https://products.wpmet.com/getgenie/"
+    },
+    "authors": [{
+        "name": "wpmet.com",
+        "email": "info@wpmet.com"
+    }],
+    "keywords": [
+        "AI writers",
+        "SEO writers"
+    ],
+    "type": "project",
+    "autoload": {
+        "files": [
+            "app/Helpers/HelperFunctions.php"
+        ],
+        "psr-4": {
+            "GenieAi\\App\\": "app/",
+            "GenieAi\\Bootstrap\\": "bootstrap/"
+        }
+    },
+    "require": {
+        "php": "^7.0|8.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,57 @@
+.getgenie {
+    .NumberInput {
+        align-items: center;
+        &.ant-row{
+            display: flex;
+            flex-direction: row;
+        }
+        .ant-form-item-required {
+            &::before {
+                display: none !important;
+            }
+        }
+        .ant-col.ant-form-item-label{
+            padding-bottom: 0;
+        }
+        .icon {
+            background: #dbe7fd;
+            font-size: 10px;
+            vertical-align: middle;
+            height: 24px;
+            width: 21px;
+            display: grid;
+            place-items: center;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #4570f4;
+            &:hover {
+                background: #4570f4;
+                color: #fff;
+            }
+        }
+        input {
+            width: 37px;
+            height: 24px;
+            text-align: center;
+            color: #323232;
+            font-weight: 500;
+            font-size: 13px;
+            border: 1px solid #d1d1d1;
+            box-sizing: border-box;
+            border-radius: 4px;
+            padding: 0;
+        }
+        .ant-form-item-control-input-content {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            column-gap: 10px;
+        }
+        .ant-form-item-control {
+            width: auto !important;
+        }
+        .ant-row.ant-form-item-row {
+            align-items: center;
+        }
+    }
+}

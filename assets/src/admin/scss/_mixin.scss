@@ -1,0 +1,115 @@
+@mixin badge {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e7e;
+    background: #f1f1f1;
+    border-radius: 17px;
+    padding: 4px 13px;
+    width: auto;
+    height: 24px;
+}
+
+@mixin input {
+    //border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    //padding: 11px 16px;
+    color: #323232;
+}
+
+@mixin scrollbar-thumb {
+    scrollbar-color: #ffffff black;
+    scrollbar-width: thin;
+    -webkit-scrollbar-color: #ffffff;
+    -webkit-scrollbar-width: thin;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        color: white;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #c4c4c4;
+        border-radius: 5px;
+    }
+}
+
+@mixin creativityLevel {
+    flex-direction: column;
+    .ant-badge.ant-badge-not-a-wrapper {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        .ant-badge-count {
+            border: 1px solid #dcdcdc !important;
+            border-radius: 4px;
+            height: auto;
+            width: 40px;
+            font-weight: 500;
+            font-size: 13px;
+            padding: 5px 8px;
+        }
+    }
+    .ant-slider {
+        margin: 0;
+        height: 14px;
+        &-rail {
+            background-color: #fff;
+            &:hover {
+                background-color: #fff;
+            }
+        }
+        &-track,
+        &-handle {
+            background-color: #4570f4;
+            border-color: #4570f4;
+        }
+        // &-handle {
+        //     width: 16px;
+        //     height: 16px;
+        // }
+        //&-rail,
+       // &-track,
+        // &-step {
+        //     height: 6px;
+        // }
+        &:hover {
+            .ant-slider-handle:not(.ant-tooltip-open) {
+                border-color: #4571f4;
+            }
+            .ant-slider-track {
+                background-color: #4570f4;
+            }
+            .ant-slider-rail{
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+@mixin alert {
+    background-color: #323232;
+    border-radius: 4px;
+    border: none;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 14px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    margin-left: 14px;
+    margin-right: 18px;
+    .ant-alert-message {
+        color: #ffffff;
+    }
+    .ant-alert-close-icon {
+        font-size: 11px;
+        line-height: 16px;
+        span {
+            color: #cdd9ff;
+        }
+    }
+}

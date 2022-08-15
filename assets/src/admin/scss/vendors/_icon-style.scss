@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'getgenie';
+  src:  url('../fonts/getgenie.eot?nv44wp');
+  src:  url('../fonts/getgenie.eot?nv44wp#iefix') format('embedded-opentype'),
+    url('../fonts/getgenie.ttf?nv44wp') format('truetype'),
+    url('../fonts/getgenie.woff?nv44wp') format('woff'),
+    url('../fonts/getgenie.svg?nv44wp#getgenie') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="getgenie-icon-"], [class*=" getgenie-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'getgenie' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.getgenie-icon-minus:before {
+  content: "\e915";
+}
+.getgenie-icon-mini_1:before {
+  content: "\e914";
+  color: #fff;
+}
+.getgenie-icon-arrow:before {
+  content: "\e906";
+}
+.getgenie-icon-copy:before {
+  content: "\e90d";
+}
+.getgenie-icon-delete:before {
+  content: "\e913";
+}
+.getgenie-icon-edit:before {
+  content: "\e900";
+}
+.getgenie-icon-back:before {
+  content: "\e901";
+}
+.getgenie-icon-back_1:before {
+  content: "\e902";
+}
+.getgenie-icon-content-shorten:before {
+  content: "\e903";
+}
+.getgenie-icon-product-descriptions:before {
+  content: "\e904";
+}
+.getgenie-icon-section-tile-generator:before {
+  content: "\e905";
+}
+.getgenie-icon-add:before {
+  content: "\e907";
+}
+.getgenie-icon-box:before {
+  content: "\e908";
+}
+.getgenie-icon-chevron_down:before {
+  content: "\e909";
+}
+.getgenie-icon-chevron_up:before {
+  content: "\e90a";
+}
+.getgenie-icon-close:before {
+  content: "\e90b";
+}
+.getgenie-icon-more:before {
+  content: "\e90c";
+}
+.getgenie-icon-add1:before {
+  content: "\e90e";
+}
+.getgenie-icon-competition:before {
+  content: "\e90f";
+}
+.getgenie-icon-cpc:before {
+  content: "\e910";
+}
+.getgenie-icon-done:before {
+  content: "\e911";
+}
+.getgenie-icon-search:before {
+  content: "\e912";
+}

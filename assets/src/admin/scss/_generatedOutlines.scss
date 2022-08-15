@@ -1,0 +1,62 @@
+.getgenie {
+    .getgenie-generated-outlines {
+        height: 100%;
+        width: 280px;
+        top: 0;
+        background-color: #f9fbff;
+        &-title {
+            font-weight: 600;
+            font-size: 15px;
+            color: #323232;
+            border-bottom: 1px solid #d7d7d7;
+            padding: 12px 0 13px 8px;
+            line-height: 16px;
+            .generateMsg.outline{
+                margin: 0;
+            }
+        }
+        .ant-card-body {
+            padding: 0;
+        }
+        &-cards {
+            height: 100%;
+            padding: 5px 10px;
+            padding-bottom: 100px;
+            overflow-y: scroll;
+            @include scrollbar-thumb;
+        }
+        &-card {
+            padding: 30px 0;
+            background: #ffffff;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-bottom: 22px;
+            position: relative;
+            &-select-btn {
+                font-weight: 600;
+                font-size: 12px;
+                letter-spacing: 0.0125em;
+                color: #A9AEBD;
+                position: absolute;
+                text-transform: uppercase;
+                top: 0;
+                right: 0;
+            }
+            &:hover {
+                .getgenie-generated-outlines-card-select-btn {
+                    color: #4570f4;
+                    &:focus{
+                        color: #4570f4;
+                    }
+                }
+            }
+        }
+        .getgenie-empty-tag{
+            background-color: #ffffff;
+            height: 60px;
+            width: 280px;
+            border-bottom: 1px solid #d7d7d7;
+        }
+    }
+}

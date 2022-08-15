@@ -1,0 +1,87 @@
+.getgenie {
+    .getgenie-history {
+        padding: 30px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 45px rgb(0 0 0 / 3%);
+        .getgenie-filter {
+            margin-bottom: 50px;
+            align-items: center;
+            label {
+                display: none;
+            }
+            input {
+                height: 35px;
+            }
+            .searchInput {
+                .ant-form-item-control-input-content {
+                    height: 45px;
+                    input {
+                        height: 100%;
+                    }
+                }
+            }
+            .dateRange {
+                border-radius: 4px;
+                width: 100%;
+            }
+            .getgenie-user-select > div > div:nth-child(2),
+            .css-6j8wv5-Input {
+                margin: 0;
+            }
+            .getgenie-search-btn,
+            .getgenie-clear-btn {
+                height: 42px;
+                width: auto;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .ant-form-item {
+                margin-bottom: 0;
+            }
+        }
+        .btn-container {
+            display: flex;
+        }
+        .ant-modal-close-x svg {
+            font-size: 28px;
+        }
+        .getgenie-table {
+            margin: 35px 0;
+            tbody td {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                max-width: 1px;
+            }
+            thead tr th {
+                font-weight: bold;
+            }
+            tbody tr {
+                cursor: pointer;
+            }
+        }
+        .ant-select-dropdown {
+            .ant-select-item-empty {
+                text-align: center;
+            }
+            .ant-spin {
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+
+        .ant-form-item-label {
+            display: none;
+        }
+
+        .getgenie-load-more-btn {
+            &:hover,
+            &:active,
+            &:focus {
+                color: #4570f4;
+                border-color: #4570f4;
+            }
+        }
+    }
+}

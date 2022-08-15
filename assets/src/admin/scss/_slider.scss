@@ -1,0 +1,9 @@
+.getgenie {
+    .getgenie-slider {
+        .ant-badge-count{
+            background-color: #fff;
+            color: #323232;
+        }
+        @include creativityLevel;
+    }
+}

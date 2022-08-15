@@ -1,0 +1,73 @@
+.getgenie {
+    .getgenie-sidebar-outline {
+        height: 90%;
+        @include scrollbar-thumb;
+        overflow-y: scroll;
+        form {
+            height: 100%;
+        }
+        .getgenie-outline-cards {
+            padding-bottom: 200px;
+            background-color: #ffffff;
+            .getgenie-single-outline {
+                background: #f0f4fb;
+                box-sizing: border-box;
+                border-radius: 4px;            
+                margin-bottom: 15px;
+                &.active::after {
+                    display: none;
+                }
+                &.outline-content {
+                    .getgenie-outline-cards-content {
+                        padding: 9px 0 9px 16px;
+                    }
+                }
+                &.outline-input {
+                    .getgenie-outline-cards-content {
+                        padding: 9px 16px;
+                    }
+                }
+            }
+            &-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h5 {
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 14px;
+                    margin-bottom: 0;
+                }
+            }
+            &-menuBtn {
+                padding: 0 20px;
+                width: 20px;
+                background: transparent;
+                &:hover,
+                &:active {
+                    background: transparent;
+                }
+            }
+            &-alert {
+                @include alert;
+            }
+            &-input {
+                background: transparent;
+                width: 100%;
+                border: none;
+                outline: 1px solid #d9d9d9;
+                &:hover,&:focus{
+                    outline-color: #4570f4;
+                }
+            }
+        }
+    }
+    .getgenie-outline-menu .icon {
+        margin-right: 10px;
+    }
+    .getgenie-outline-loading-text {
+        font-size: 13px;
+        letter-spacing: 0.15px;
+        color: #979797;
+    }
+}

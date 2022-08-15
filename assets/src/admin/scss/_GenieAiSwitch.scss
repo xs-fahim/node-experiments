@@ -1,0 +1,43 @@
+.getgenie {
+    .getgenie-switch {
+        margin-bottom: 21px;
+        .label {
+            font-weight: 500;
+            font-size: 13px;
+        }
+        .switch {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .ant-switch {
+            background-color: #ffffff;
+            height: 14px;
+            min-width: 35px;
+            &:focus {
+                box-shadow: none;
+            }
+            .ant-switch-handle {
+                top: -4px;
+                height: 20px;
+                width: 20px;
+                &::before {
+                    background-color: #f1f1f1;
+                }
+            }
+        }
+        .ant-switch.ant-switch-checked {
+            background-color: #d7e5ff;
+            height: 14px;
+            min-width: 35px;
+            .ant-switch-handle {
+                top: -4px;
+                height: 20px;
+                width: 20px;
+                &::before {
+                    background-color: #4570f4;
+                }
+            }
+        }
+    }
+}
