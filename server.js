@@ -33,7 +33,7 @@ app.get('/pool', async (req, res) => {
 });
 
 
-app.post('/test1', (req, res) => {
+app.get('/test1', (req, res) => {
   let initial = process.memoryUsage().heapUsed / 1024 / 1024
   //   new usageStats(req, res).getLimitUsage();
   new TestController1(req, res).run();
@@ -49,7 +49,7 @@ app.post('/test1', (req, res) => {
   
 })
 
-app.post('/test2', (req, res) => {
+app.get('/test2', (req, res) => {
   let initial = process.memoryUsage().heapUsed / 1024 / 1024
   //   new usageStats(req, res).getLimitUsage();
   res.status(200).send(new TestController1(req, res).run());
