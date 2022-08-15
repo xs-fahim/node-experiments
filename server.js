@@ -35,25 +35,34 @@ app.get('/pool', async (req, res) => {
 
 app.post('/test1', (req, res) => {
   let initial = process.memoryUsage().heapUsed / 1024 / 1024
-  console.log("working")
   //   new usageStats(req, res).getLimitUsage();
   new TestController1(req, res).run();
   let used = process.memoryUsage().heapUsed / 1024 / 1024
   let result = used-initial
-  console.log(`memory total usage of the test 1 ${Math.round(used * 100) / 100} MB`)
-  console.log(`memory usage of the test 1 ${Math.round(result * 100) / 100} MB`)
+
+  console.table([{
+    'endPoint': '/no return',
+    systemUsage: `${Math.round(used * 100) / 100} MB`,
+    functionUsage: `${Math.round(result * 100) / 100} MB`,
+    }], ['endPoint', 'systemUsage', 'functionUsage']
+  )
+  
 })
 
 app.post('/test2', (req, res) => {
   let initial = process.memoryUsage().heapUsed / 1024 / 1024
-  console.log("working")
   //   new usageStats(req, res).getLimitUsage();
   res.status(200).send(new TestController1(req, res).run());
 
   let used = process.memoryUsage().heapUsed / 1024 / 1024
   let result = used-initial
-  console.log(`memory total usage of the test 2  ${Math.round(used * 100) / 100} MB`)
-  console.log(`memory usage of the test 2  ${Math.round(result * 100) / 100} MB`)
+
+  console.table([{
+    'endPoint': '/inline return',
+    systemUsage: `${Math.round(used * 100) / 100} MB`,
+    functionUsage: `${Math.round(result * 100) / 100} MB`,
+  }], ['endPoint', 'systemUsage', 'functionUsage']
+)
 })
 
 
