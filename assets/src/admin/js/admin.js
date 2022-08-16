@@ -1,6 +1,8 @@
 const { addAction } = wp.hooks;
+import './Components'
+const { HeaderToolbar } = window.getGenie.component;
 import App from './App';
-import HeaderToolbar from './components/HeaderToolbar';
+
 import './scripts/scoreUpdater.js';
 import './scripts/sentenceRewrite.js'
 import './scripts/index.js'

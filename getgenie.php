@@ -5,7 +5,7 @@
  * Description:  Genie AI is the most intuitive A.I Content Wordpress Plugin that can help you save time and write smarter.
  * Plugin URI: https://getgenie.ai/
  * Author: getgenieai
- * Version: 1.0.6
+ * Version: 1.0.6-test
  * Author URI: https://getgenie.ai/
  *
  * Text Domain: getgenie
