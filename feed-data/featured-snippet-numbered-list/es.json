@@ -1,0 +1,24 @@
+{
+    "title": "Featured Snippet (Numbered List)",
+    "templateSlug": "featured-snippet-numbered-list",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 114,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere una lista de pasos que explique: ",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "como cuidar a un gato",
+                    "placeholder": "Enter the topic for the list of steps",
+                    "required": true
+                }
+            ],
+            "output": "1. Alimentar al gato a diario con comida para gatos y agua fresca.\r\n2. Llevar al gato al veterinario para que lo revise y le recete las vacunas necesarias.\r\n3. Limpiar la litter box del gato a diario.\r\n4. Acicalar al gato y peinarlo si es necesario.\r\n5. Jugar y acariciar al gato para mantenerlo sano y feliz."
+        }
+    ]
+}

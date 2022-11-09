@@ -1,0 +1,111 @@
+{
+    "title": "Meta Description",
+    "templateSlug": "meta-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 80,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "Wie kann man Bauchfett zu Hause verlieren?",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": " perder grasa del vientre en casa",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Sie können Bauchfett zu Hause verlieren und die Frustration und Peinlichkeit von Gewichtsverlustprogrammen vermeiden, die nicht funktionieren. Folgen Sie diesem Blog für eine detaillierte Anleitung"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "Beste Webhosting-Anbieter für WordPress",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "Webhosting-Anbieter für WordPress",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Auf der Suche nach dem besten Webhosting-Anbieter für Ihre WordPress-Website? Vergleichen Sie Funktionen, Preise und Zuverlässigkeit zwischen unseren Top-Webhosting-Anbietern"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "So verbessern Sie Ihre Kreditwürdigkeit",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": " Kredit-Score verbessern",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Unabhängig davon, wie Ihre Kreditwürdigkeit ist, möchten Sie, dass sie besser ist. Dieser Artikel wird Ihnen helfen, mehr über die Faktoren zu erfahren, die Ihre Kreditwürdigkeit beeinflussen und wie Sie sie verbessern können."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "8 fruchtbare Wachstumsstrategien für E-Commerce-Geschäfts-E-Mail-Listen",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "Fruchtbare Wachstumsstrategien für E-Commerce-Geschäftslisten",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Möchten Sie Ihre E-Commerce-Geschäfts-E-Mail-Liste erweitern? Bitte schön! Werfen Sie einen Blick auf die Beschreibung, um die Wachstumsstrategien für E-Commerce-Geschäfts-E-Mail-Listen zu kennen und umzusetzen."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "The 36 Best Sales Training Programs for Every Budget and Team",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "Die besten Verkaufstrainingsprogramme",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Ganz gleich, ob Sie nach Online- oder virtuellen Verkaufsschulungen für neue oder erfahrene Vertriebsmitarbeiter suchen, es gibt ein Programm, mit dem Ihr Team mehr Geschäfte abschließen kann."
+        }
+    ]
+}

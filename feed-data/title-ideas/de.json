@@ -1,0 +1,24 @@
+{
+    "title": "Title Ideas",
+    "templateSlug": "title-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 117,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere diferentes variaciones de títulos de publicaciones de blog en alemán para este tema:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "\"Genere diferentes variaciones de títulos de publicaciones de blog en alemán para este tema: Menschenzentriertes Design\"",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "1. Design für Menschen: Was ist das und warum ist es wichtig?\r\n2. Menschenzentriertes Design – die Zukunft des Designs?\r\n3. Der Mensch im Mittelpunkt: Wie Menschenzentriertes Design unsere Welt verbessert\r\n4. Menschenzentriertes Design – Mehr als nur ein Trend\r\n5. Warum Menschenzentriertes Design wirklich wichtig ist"
+        }
+    ]
+}

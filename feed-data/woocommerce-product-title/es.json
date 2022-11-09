@@ -1,0 +1,91 @@
+{
+    "title": "WooCommerce Product Title",
+    "templateSlug": "woocommerce-product-title",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 37,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Kellogg's Corn Flakes with Real Strawberry Puree",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product title be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductTitleBeBasedOn",
+                    "sample": "breakfast cereal, vitamin c, low-fat, cholesterol free, 300 grams",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "Corn Flakes de Kellogg's con puré de fresas reales: sabroso y nutritivo cereal para el desayuno"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "EvoFox Elite Play Wireless Controller",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product title be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductTitleBeBasedOn",
+                    "sample": "vibración dual, Bluetooth, sensor giroscópico, juego de 10 horas",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "Mando inalámbrico EvoFox Elite Play (compatible con PS4) - Mando inalámbrico Bluetooth con doble vibración y 10 horas de juego"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "JBL C100SI",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product short description be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductShortDescriptionBeBasedOn",
+                    "sample": "auriculares intrauditivos, JBL pure bass, control remoto de un botón, cogollos en ángulo, negro",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "JBL C100SI - Auriculares dinámicos y ultraligeros - Negro"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Nizoral Anti-dandruff Shampoo",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product short description be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductShortDescriptionBeBasedOn",
+                    "sample": "caspa, picazón en el cuero cabelludo, ketoconazol",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "Nizoral Champú de Tratamiento Anticaspa - Clínicamente probado para aliviar el picor y la descamación del cuero cabelludo, todo tipo de cabellos y las canas"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Compression",
+    "templateSlug": "paragraph-compression",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 79,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Fassen Sie den folgenden Absatz in einem Satz zusammen:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Mit der Einführung eines „professionellen Portfolios“ von linkedIn können Sie jetzt ganz einfach visuelle Inhalte auf Ihrem LinkedIn-Profil teilen, um Ihre Fähigkeiten mehr zu demonstrieren, als es Lebensläufe könnten. Von Portfoliostücken bis hin zu Präsentationen und Videos können Sie jetzt Ihre Arbeit in Ihrem Profil präsentieren, indem Sie den Inhalt einer Webseite importieren oder Ihre Lieblingsarbeiten direkt von Ihrem Computer hochladen. Anstatt potenziellen Arbeitgebern zu sagen, was Sie können, zeigen Sie Ihre Arbeit und lassen Sie sie für sich selbst sprechen.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "LinkedIn hat ein \"professionelles Portfolio\" eingeführt, mit dem Nutzer visuelle Inhalte auf ihrem LinkedIn-Profil teilen können, um ihre Fähigkeiten mehr zu demonstrieren, als es Lebensläufe könnten."
+        }
+    ]
+}

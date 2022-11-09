@@ -1,0 +1,91 @@
+{
+    "title": "Feature - Benefit",
+    "templateSlug": "feature-benefit",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 127,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Uber",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Uber es una compañía de viajes compartidos que contrata contratistas independientes como conductores. Es uno de los muchos servicios actuales que contribuyen a la economía colaborativa, proporcionando un medio para conectar los recursos existentes en lugar de proporcionar los recursos físicos en sí. Uber vincula a los pasajeros con los conductores utilizando la aplicación Uber. Generalmente, los conductores poseen su propio automóvil. La compañía también ofrece alquiler o arrendamiento de automóviles a través de socios externos.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Ventajas estándar:\r\n- Consiga un viaje de forma rápida y sencilla, sin tener que llamar a un taxi o esperar al autobús.\r\n- Ahorra dinero en gastos de transporte.\r\nBeneficios emocionales:\r\n- Siéntase como un VIP cuando le lleven en un coche de lujo.\r\n- Disfrute de la comodidad de poder llegar a su destino con sólo un par de toques en su teléfono."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gillette MACH3 Turbo",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Las tres cuchillas del Gillette MACH3 Turbo están tratadas con un recubrimiento antifricción avanzado, lo que permite que el MACH3 Turbo elimine cada vello con menos sensación de irritación. Las micro aletas suaves y protectoras suavizan suavemente la piel, lo que permite que el MACH3 Turbo se afeite de manera uniforme y sin esfuerzo. La tira de lubricación indicadora ayuda a garantizar que su cuchilla de afeitar MACH3 Turbo siga deslizándose por su piel, afeitando después del afeitado.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Beneficios estándar:\r\n- Afeitado más cómodo\r\n- Consigue un afeitado más apurado\r\n- Menos irritación\r\nBeneficios emocionales \r\n- Siéntete seguro y guapo sin preocuparte de las molestas barbas \r\n- Una tecnología impresionante que te hará sentir como un rey"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "The Sun",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "The Sun es un periódico sensacionalista británico, publicado por la división News Group Newspapers de News UK, a su vez una subsidiaria de propiedad total de News Corp de Rupert Murdoch. Fue fundada como un periódico en 1964 como sucesor del Daily Herald, y se convirtió en un tabloide en 1969 después de que fue comprado por su actual propietario. ",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Beneficios estándar:\r\n- Obtenga las últimas noticias y eventos de actualidad.\r\n- Lea artículos de opinión y editoriales de algunos de los mejores periodistas del Reino Unido.\r\nBeneficios emocionales:\r\n- Esté informado de lo que ocurre en su país y en el mundo."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Tumblr",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Tumblr es un sitio de microblogging y redes sociales que permite a los usuarios crear un diario o blog en línea. Los usuarios pueden seguir sus intereses favoritos, otros Tumblrs y personas influyentes de la marca para compartir contenido hacia y desde. Puede \"rebloguear\" publicaciones, fotos o videos que le gusten y compartirlos en su blog para que sus seguidores los vean. Tumblr fue relativamente popular entre los preadolescentes y adolescentes en su apogeo, alrededor de 2013.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Beneficios estándar:\r\n- Tumblr es una forma estupenda de compartir tus pensamientos e ideas con el mundo.\r\n- Puedes seguir a otros Tumblrs que te interesen y compartir su contenido con tus seguidores.\r\n- Tumblr es perfecto para promocionar tu negocio o blog.\r\nBeneficios emocionales:\r\n- Tumblr te da voz en la sociedad actual.\r\n- Puedes conectar con personas de todo el mundo que comparten tus intereses.\r\n- Tumblr es la plataforma perfecta para promocionar tu negocio o blog."
+        }
+    ]
+}

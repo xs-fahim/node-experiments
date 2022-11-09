@@ -1,0 +1,24 @@
+{
+    "title": "Title Ideas",
+    "templateSlug": "title-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generate different variations of blog titles for this topic:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Fast fashion trend",
+                    "placeholder": "Enter your desired topic for title generation",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

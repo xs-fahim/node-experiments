@@ -1,0 +1,31 @@
+{
+    "title": "Product Description",
+    "templateSlug": "product-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 95,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write an extensive description of the following product:",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Jhakanaka",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Jhakanaka is a music player. A product of XpeedStudio. Plays all types of music and podcast. Speech-to-text technology for lyrics for music and subtitles for podcasts. Target audience: teens and young adults. Audiobook feature upcoming.",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": false
+                }
+            ],
+            "output": "If you're looking for an amazing music player that can play all types of music and podcasts, then you need Jhakanaka! This product from XpeedStudio is perfect for teens and young adults who want to enjoy their favorite tunes. The speech-to-text technology allows you to see lyrics for music and subtitles for podcasts, making it easy to follow along. Plus, the audiobook feature is coming soon, so you can enjoy your favorite books on the go!"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "title": "Problem, Agitate, Solution (PAS)",
+    "templateSlug": "problem-agitate-solution-pas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 86,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Canva",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Canva is a graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content. The app includes templates for users to use. The platform is free to use and offers paid subscriptions such as Canva Pro and Canva for Enterprise for additional functionality.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Creating graphics for social media, presentations or documents is time-consuming and requires a lot of skills.\r\n\r\nAgitate: Designing your own visuals can be very time-consuming, especially if you have to create something from scratch. Not only that, but it's also tough to get the design just right so that it really stands out on social media.\r\n\r\nSolution: Canva offers a simple solution for this problem by providing users with templates they can use and customize to their needs in order to make beautiful designs without having any graphic design experience themselves. Furthermore, there are numerous ready-made layouts that are easy to edit and will help you save even more time!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Pinterest",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Pinterest is a social site where you can collect and share images of anything you find interesting. You can also visually discover new interests by browsing the collections of other Pinterest users. ",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: It’s hard to keep up with all the cool things you find online.\r\nAgitate: It’s so easy to get distracted and find yourself browsing for hours.\r\nSolution: Just use Pinterest — find and save images from all over the web. Browse through our collections and follow other users to find new interests."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dettol Soap",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dettol Soap removes dirt and sweat from your body, leaving your skin feeling clean and refreshed. But your body might not agree with the types of soap you use. Some traditional or normal soaps can be too harsh. These products will clean your skin but can leave it dry or irritated.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Generic soaps can be too harsh on your skin.\r\nAgitate: Skin can feel dry or irritated after a bath or shower.\r\nSolution: Dettol Soap is gentle on your skin and leaves you feeling fresh and clean."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Fidget spinner",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Fidget spinners are advertised to increase concentration and attention to academic tasks. Past research suggests that hyperactive movements, such as fidgeting, improve performance on attention tasks in children with attention-deficit/hyperactivity disorder (ADHD).",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Struggling to stay focused and on task.\r\nAgitate: You can't concentrate and get rid of anxiety. You're tired of being told to just \"sit still.\"\r\nSolution: Fidget spinners are the perfect solution for those who need a little extra help focusing. They also come in a variety of colors and shapes so there is something for everyone!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gorilla Glass",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Gorilla Glass's special composition enables the potassium ions to diffuse far into the surface, creating high compressive stress deep into the glass. This layer of compression creates a surface that is more resistant to damage from everyday use.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Scratches on your phone are one of the worst things that can happen to it.\r\nAgitate: It's so easy to get scratches on your phone, especially if you're not using a case.\r\nSolution: Gorilla Glass is designed to be resistant to everyday use and damage. It's made from materials that are tough and durable, but still thin enough for all of your devices."
+        }
+    ]
+}

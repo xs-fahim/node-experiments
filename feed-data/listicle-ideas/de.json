@@ -1,0 +1,24 @@
+{
+    "title": "Listicle Ideas",
+    "templateSlug": "listicle-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 116,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Schreiben Sie verschiedene Variationen listenbasierter Artikeltitel auf Deutsch für:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Aphrodisiakum",
+                    "placeholder": "Enter the topic for listicle ideas",
+                    "required": true
+                }
+            ],
+            "output": "1. Die besten Aphrodisiaka für eine sinnliche Nacht\r\n2. So machen Sie Ihren Partner verrückt mit Aphrodisiaka\r\n3. Verführen Sie Ihren Partner mit diesen Aphrodisiaka\r\n4. Die besten Aphrodisiaka für eine unvergessliche Nacht\r\n5. Aphrodisiaka: die besten Rezepte für eine sinnliche Nacht"
+        }
+    ]
+}

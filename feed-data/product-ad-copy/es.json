@@ -1,0 +1,91 @@
+{
+    "title": "Product Ad Copy",
+    "templateSlug": "product-ad-copy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 103,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dunkin' Donuts",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dunkin’ Donuts is the world’s leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin’ Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, sandwiches & more!",
+                    "placeholder": "Enter the product description",
+                    "required": false
+                }
+            ],
+            "output": "Panadería cerca de ti - Dunkin' Donuts'\r\n'¡La cadena de panaderías y cafeterías más grande del mundo! ¡Compre nuestros productos en línea hoy! Recogida gratuita el mismo día en la tienda. ¡Compre Fresco hoy y gane puntos de recompensa! Desde nuestros productos horneados hasta nuestro café, lo tenemos cubierto."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Uber",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Uber es una compañía de viajes compartidos que contrata contratistas independientes como conductores. Es uno de los muchos servicios actuales que contribuyen a la economía colaborativa, proporcionando un medio para conectar los recursos existentes en lugar de proporcionar los recursos físicos en sí. Uber vincula a los pasajeros con los conductores utilizando la aplicación Uber. Generalmente, los conductores poseen su propio automóvil. La compañía también ofrece alquiler o arrendamiento de automóviles a través de socios externos.",
+                    "placeholder": "Enter the product description",
+                    "required": false
+                }
+            ],
+            "output": "Ahorre dinero en viajes - ¡Obtenga un Uber!\r\nPruebe viajes seguros y asequibles. Su viaje compartido puerta a puerta, sin problemas de estacionamiento. Viaje compartido para la gente. Pague con su tarjeta de crédito. Obtenga un viaje en minutos."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Boots Cucumber Moisturizing Cream",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "La gama de cuidado de la piel de Boot, cuidadosamente formulada, está enriquecida con pepino refrescante y vitaminas para cuidar suavemente su piel.  La crema hidratante de Boot con antioxidantes añadidos es perfecta para que la uses tanto de día como de noche. Dejándote con una piel hidratada, nutrida y bellamente suave.",
+                    "placeholder": "Enter the product description",
+                    "required": false
+                }
+            ],
+            "output": "Crema hidratante de Boot - Perfecta para el día o la noche\r\nTrata tu piel con la increíble gama de Boot. Cuidadosamente formulado con pepino refrescante y vitaminas. Cuida suavemente tu piel con Boots. Ofreciendo un gran cuidado de la piel."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Buffer",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Buffer es una aplicación de software para la web y el móvil, diseñada para administrar cuentas en redes sociales, permitiendo a los usuarios programar publicaciones en Twitter, Facebook, Instagram, Pinterest y LinkedIn, así como analizar sus resultados e interactuar con su comunidad.",
+                    "placeholder": "Enter the product description",
+                    "required": false
+                }
+            ],
+            "output": "Buffer: la herramienta de redes sociales definitiva: ¡ahorra tiempo y obtiene resultados! Buffer es la forma más rápida y fácil de compartir su contenido en las redes sociales. Programe publicaciones con solo unos pocos clics. ¡Pruébalo gratis durante 14 días! Obtenga más participación del cliente en las redes sociales y programe publicaciones de forma rápida y sencilla."
+        }
+    ]
+}

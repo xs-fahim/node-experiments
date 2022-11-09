@@ -1,0 +1,31 @@
+{
+    "title": "WooCommerce Product Long Description",
+    "templateSlug": "woocommerce-product-long-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 140,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "describir este producto en detalle con las palabras clave en español",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Garantia Stone 2 in1 Water Tank",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "tanque de agua, 2 en 1, cosecha de agua de lluvia, colilla de agua, taza de maceta en la parte superior, hilo integrado",
+                    "placeholder": "Specify the keywords/key phrases for the product long description",
+                    "required": true
+                }
+            ],
+            "output": "El Stone 2 in1 Water Tank es una excelente opción para aquellos que buscan una manera eficiente de recolectar agua de lluvia. El tanque de agua tiene una capacidad de 60 litros y viene con una taza de maceta en la parte superior, lo que le permite usarlo como una colilla de agua o como una taza de maceta. El Stone 2 in1 Water Tank también tiene un hilo integrado que le permite colgarlo en su casa o en su jardín."
+        }
+    ]
+}

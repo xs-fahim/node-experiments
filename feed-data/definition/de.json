@@ -1,0 +1,24 @@
+{
+    "title": "Definition",
+    "templateSlug": "definition",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 52,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Erklären Sie den Begriff in einem Satz und auf Deutsch:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Biodiversität",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Biodiversität bezieht sich auf die Vielfalt der Lebewesen auf der Erde, sowohl in Bezug auf Arten als auch auf Lebensräume."
+        }
+    ]
+}

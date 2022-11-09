@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph for Heading",
+    "templateSlug": "paragraph-for-heading",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 126,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Geben Sie einen Absatzinhalt für die folgende Überschrift/den folgenden Titel ein:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "der Arabische Frühling",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "In den letzten Jahren gab es in der arabischen Welt viele Veränderungen. Die Menschen haben sich gegen die Unterdrückung und den Missbrauch ihrer Regierungen erhoben und für Freiheit und Gerechtigkeit gekämpft. Dieser Kampf hat sich in den letzten Jahren besonders intensiviert und ist unter dem Namen \"Arabischer Frühling\" bekannt geworden."
+        }
+    ]
+}

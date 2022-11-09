@@ -1,0 +1,24 @@
+{
+    "title": "Definition",
+    "templateSlug": "definition",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 48,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Explicar el término en una oración y en español:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "biodiversidad",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Biodiversidad es la variedad de la vida en todas sus formas y niveles de organización, incluyendo la diversidad de ecosistemas, especies y genes."
+        }
+    ]
+}

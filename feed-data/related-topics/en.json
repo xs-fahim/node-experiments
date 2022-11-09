@@ -1,0 +1,24 @@
+{
+    "title": "Related Topics",
+    "templateSlug": "related-topics",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generate a list of topics related to this paragraph:",
+            "input": [
+                {
+                    "label": "Content",
+                    "name": "content",
+                    "sample": "Bollywood, an Indian Hollywood, refers to the Hindi-language movie industry in India. The term Bollywood combines Bombay (where most Hindi movies are made) and Hollywood (where most American movies are made). Bollywood makes many movies each year. Many Bollywood movies are called Masala movies.",
+                    "placeholder": "Enter a paragraph/snippet of content",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

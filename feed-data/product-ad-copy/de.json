@@ -1,0 +1,91 @@
+{
+    "title": "Product Ad Copy",
+    "templateSlug": "product-ad-copy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 116,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Buffer",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Buffer ist eine Softwareanwendung für das Web und Mobilgeräte, die entwickelt wurde, um Konten in sozialen Netzwerken zu verwalten, mit der Benutzer Beiträge auf Twitter, Facebook, Instagram, Pinterest und LinkedIn planen, ihre Ergebnisse analysieren und mit ihrer Community interagieren können.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Buffer: la herramienta de redes sociales definitiva: ¡ahorra tiempo y obtiene resultados! Buffer es la forma más rápida y fácil de compartir su contenido en las redes sociales. Programe publicaciones con solo unos pocos clics. ¡Pruébalo gratis durante 14 días! Obtenga más participación del cliente en las redes sociales y programe publicaciones de forma rápida y sencilla."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dunkin' Donuts",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "\" Dunkin' Donuts ist die weltweit führende Backwaren- und Kaffeekette und bedient täglich mehr als 3 Millionen Kunden. Dunkin 'Donuts verkauft 52 Sorten Donuts und mehr als ein Dutzend Kaffeegetränke sowie eine Reihe von Bagels, Sandwiches und mehr!\"",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Bäckerei in Ihrer Nähe - Dunkin' Donuts'\r\n\"Die größte Bäckereikette der Welt & Kaffeehaus! Kaufen Sie unsere Produkte noch heute online! Kostenlose Abholung am selben Tag im Geschäft. Kaufen Sie noch heute frisch ein und sammeln Sie Prämienpunkte! Von unseren Backwaren bis hin zu unserem Kaffee haben wir alles für Sie."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Uber",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Uber ist ein Mitfahrunternehmen, das unabhängige Auftragnehmer als Fahrer einstellt. Es ist heute eine von vielen Dienstleistungen, die zur Sharing Economy beitragen und ein Mittel zur Verbindung vorhandener Ressourcen bieten, anstatt die physischen Ressourcen selbst bereitzustellen. Uber verbindet Passagiere mit Fahrern, die die Uber App verwenden. In der Regel besitzen die Fahrer ein eigenes Auto. Das Unternehmen bietet auch die Vermietung oder das Leasing von Autos über Drittpartner an.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "\"Sparen Sie Geld bei Fahrten – Holen Sie sich ein Uber!\r\nProbieren Sie sichere, erschwingliche Fahrgeschäfte aus. Ihre Tür-zu-Tür-Mitfahrgelegenheit, kein Parkplatzproblem. Mitfahrgelegenheiten für die Menschen. Bezahlen Sie mit Ihrer Kreditkarte. Holen Sie sich eine Fahrt in wenigen Minuten.\""
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Boots Cucumber Moisturizing Cream",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "  Die liebevoll formulierte Hautpflegeserie von Boot ist mit kühlenden Gurken und Vitaminen angereichert, um Ihre Haut sanft zu pflegen.  Die feuchtigkeitsspendende Creme von Boot mit zusätzlichen Antioxidantien ist perfekt für Sie bei Tag und Nacht. Wir hinterlassen Ihnen eine hydratisierte, gepflegte und schön weiche Haut.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "\"Boot's Feuchtigkeitscreme - perfekt für Tag und Nacht\r\nVerwöhnen Sie Ihre Haut mit dem erstaunlichen Boot-Sortiment. Liebevoll formuliert mit Kühlgurke und Vitaminen. Pflegen Sie Ihre Haut sanft mit Stiefeln. Bietet großartige Hautpflege.\""
+        }
+    ]
+}

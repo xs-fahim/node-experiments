@@ -1,0 +1,111 @@
+{
+    "title": "WooCommerce Product Title",
+    "templateSlug": "woocommerce-product-title",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 36,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Kellogg's Corn Flakes with Real Strawberry Puree",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "breakfast cereal, vitamin c, low-fat, cholesterol free, 300 grams",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "Kellogg's Corn Flakes with Real Strawberry Puree | Breakfast Cereals | Low Fat | High in Vitamin C | High in Iron | Naturally Cholesterol Free | 300g Pack"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "EvoFox Elite Play Wireless Controller",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "dual vibration, Bluetooth, gyro sensor, 10-hour gameplay",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "EvoFox Elite Play Wireless Controller for PS4, iPad, and iPhones with Dual Vibration, Bluetooth Connection, 6-axis Gyro Sensor, and 10 Hrs Gameplay"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "JBL C100SI",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "in-ear headphone, JBL pure bass, one button remote, angled buds, black",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Nizoral Anti-dandruff Shampoo",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "dandruff, itchy scalp, ketoconazole",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "Nizoral Anti-dandruff Shampoo, Treats and Prevents Dandruff, Suitable for Dry Flaky and Itchy Scalp, Contains Ketoconazole - 60ml"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "EcoRight Canvas Tote Bag ",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "shopping bag, beach bag, eco-friendly, women",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "EcoRight Canvas Tote Bag Aesthetic, Eco-friendly Tote Bags for Women, Reusable Shopping Bag, Beach Bagz"
+        }
+    ]
+}

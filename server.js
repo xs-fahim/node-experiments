@@ -1,10 +1,11 @@
 'use strict';
-
+import test from "./test.js";
 import express from 'express';
 import path from 'path';
 import cors from 'cors';
 import dotenv from 'dotenv'; 
 const __dirname = path.resolve(path.dirname(''));
+const results = require('./result.json')
 
 dotenv.config()
 // Constants
@@ -21,7 +22,13 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   next();
 });
-
+global.globalString = {
+      name: "declared the variable",
+    type: "string"
+}
+Object.freeze(globalString)
+//console.log(globalString)
+test()
 
 app.get('/', async (req, res) => {
   res.sendFile(__dirname + '/static/index.html');
@@ -38,6 +45,7 @@ app.post('/test1', (req, res) => {
 
 
 console.log(`'HTTP server started' on port ${PORT}`);
+console.log(results);
 
 const server = app.listen(+PORT, HOST,()=>{});
 

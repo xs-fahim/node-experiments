@@ -1,0 +1,24 @@
+{
+    "title": "Related Topics",
+    "templateSlug": "related-topics",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 22,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Erstellen Sie eine Liste mit Themen, die sich auf diesen Absatz beziehen:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Rohen Fisch zu essen schien keine gute Idee zu sein. \"Es ist eine Delikatesse in Japan\", es schien es nicht schmackhafter zu machen. Roher Fisch ist roher Fisch, Delikatesse oder nicht.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "-Rohen Fisch essen\r\n-Schmackhaftigkeit\r\n-Japan"
+        }
+    ]
+}

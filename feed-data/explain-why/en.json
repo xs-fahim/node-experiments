@@ -1,0 +1,71 @@
+{
+    "title": "Explain Why",
+    "templateSlug": "explain-why",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 51,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Why do we use chi square test?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "explain in multiple sentences the use cases of chi square test and how it comes of use",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "The Chi-Square test is used to determine whether there is an association between two variables. It is based on the assumption that if one variable is associated with another then the distribution of the second variable will be different for those who have the first variable compared to those who don't."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Why can't we live on mars?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "tell me the reasons behind mars not being habitable",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Mars is too cold for humans to survive. It's about -60 degrees Fahrenheit (-51 Celsius) at its poles, compared with an average temperature of around 50 degrees F (10 C). And even if you could somehow make it there, you'd be dead within weeks or months."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Why is the sky blue?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "the reasons behind the color of the sky",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Gases in Earth's atmosphere scatter light from the sun in all directions. Blue is scattered more than other wavelengths because it travels at shorter wavelengths. This is why you see a blue sky most often."
+        }
+    ]
+}

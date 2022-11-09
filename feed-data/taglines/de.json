@@ -1,0 +1,31 @@
+{
+    "title": "Taglines",
+    "templateSlug": "taglines",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 21,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Schreiben Sie für folgendes Produkt einen überzeugenden Slogan auf Deutsch:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Verizon",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Verizon ist eines der größten Kommunikationstechnologieunternehmen der Welt. Verizon Communications wurde am 30. Juni 2000 gegründet und ist einer der weltweit führenden Anbieter von Technologie- und Kommunikationsdienstleistungen.",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": true
+                }
+            ],
+            "output": "Verizon - erschließen Sie sich die Welt der Kommunikation"
+        }
+    ]
+}

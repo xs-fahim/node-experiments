@@ -1,0 +1,91 @@
+{
+    "title": "Attention Interest Desire Action (AIDA)",
+    "templateSlug": "attention-interest-desire-action-aida",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 248,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Tumblr",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Tumblr es un sitio de microblogging y redes sociales que permite a los usuarios crear un diario o blog en línea. Los usuarios pueden seguir sus intereses favoritos, otros Tumblrs y personas influyentes de la marca para compartir contenido hacia y desde. Puede \"rebloguear\" publicaciones, fotos o videos que le gusten y compartirlos en su blog para que sus seguidores los vean. Tumblr fue relativamente popular entre los preadolescentes y adolescentes en su apogeo, alrededor de 2013.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "\"Attention:  Möchten Sie Ihre Gedanken und Erfahrungen mit der Welt teilen?\r\nInteresse: Tumblr ist ein großartiger Ort, um mit Menschen in Kontakt zu treten, die ähnliche Leidenschaften, Interessen oder Überzeugungen haben. Es ist eine Möglichkeit, gleichgesinnte Gemeinschaften zu finden und deine Gedanken und Gefühle mit der Welt zu teilen.\r\nWunsch: Wir helfen dir, deine Stimme zu finden, damit du dich online ausdrücken kannst. Ob in Form von Texten, Fotos oder Videos - Tumblr ist ein großartiger Ort, um sich selbst auszudrücken.\r\nAktion: Klicke jetzt auf diese Anzeige und starte mit Tumblr!\""
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Polylang",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Polylang es un plugin freemium para crear un sitio web de WordPress bilingüe o multilingüe. Es posible añadir un número ilimitado de idiomas y traducir los contenidos de su sitio (artículos, páginas, categorías, etiquetas, widgets, menús, tipos de publicaciones personalizadas, taxonomías, URL, etc.) ya sea manualmente o con un completo sistema de gestión de traducciones.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "\"Attention:  Muss Ihre Website in mehr als einer Sprache verfügbar sein?\r\nInteresse: Polylang ist ein Plugin, mit dem Sie eine zweisprachige oder mehrsprachige Website mit WordPress erstellen können. Sie können eine unbegrenzte Anzahl von Sprachen hinzufügen und den Inhalt Ihrer Website übersetzen.\r\nWunsch: Es kann kostenlos heruntergeladen und verwendet werden, und Sie brauchen keine technischen Kenntnisse, um loszulegen. Es ist mit jedem Theme, Plugin oder jeder Erweiterung kompatibel. Sie können den Inhalt Ihrer Website entweder manuell oder mit einem kompletten Übersetzungsmanagementsystem übersetzen.\r\nAktion: Klicken Sie jetzt auf diese Anzeige, um eine schrittweise Anleitung zu erhalten, wie Sie Polylang noch heute installieren können!\""
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gillette MACH3",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Las tres cuchillas del Gillette MACH3 Turbo están tratadas con un recubrimiento antifricción avanzado, lo que permite que el MACH3 Turbo elimine cada vello con menos sensación de irritación. Las micro aletas suaves y protectoras suavizan suavemente la piel, lo que permite que el MACH3 Turbo se afeite de manera uniforme y sin esfuerzo. La tira de lubricación indicadora ayuda a garantizar que su cuchilla de afeitar MACH3 Turbo siga deslizándose por su piel, afeitando después del afeitado.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention:  Wünschen Sie sich eine komfortablere Rasur?\r\nInteresse: Der Gillette MACH3 Turbo wurde entwickelt, um Ihnen eine komfortablere Rasur zu ermöglichen. Er ist einfach zu bedienen und hat drei Klingen, die mit einer fortschrittlichen Anti-Reibungs-Beschichtung behandelt sind.\r\nWunsch: Der MACH3 Turbo ist mit weichen, schützenden Mikrolamellen ausgestattet, die die Haut sanft glätten. Und mit dem Indikator-Schmierstreifen ist es einfacher als je zuvor, den Rasierer über die Haut gleiten zu lassen.\r\nAktion: Klicken Sie auf diese Anzeige, um mehr über diesen Rasierer zu erfahren!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Hootsuite",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Hootsuite es una herramienta de gestión de redes sociales con características para ayudar con la planificación, programación y sindicación de publicaciones sociales. Las características clave incluyen programación automática, monitoreo de redes sociales, informes de rendimiento, gestión de tareas básicas y más.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "\"Attention:  Möchten Sie Zeit in den sozialen Medien sparen?\r\nInteresse: Hootsuite ist ein Tool zur Verwaltung sozialer Medien, das Ihnen hilft, weniger Zeit mit sozialen Medien zu verbringen, damit Sie sich auf wichtigere Dinge konzentrieren können. Es ist einfach zu bedienen und für bis zu 3 Profile kostenlos.\r\nWunsch: Sie können Ihre Leistung verfolgen und sehen, was funktioniert und was nicht. Mit unseren detaillierten Analyseberichten erhalten Sie Einblicke in das, was Ihre Zielgruppe von Ihren Beiträgen erwartet.\r\nAktion: Klicken Sie jetzt auf diese Anzeige und sparen Sie Zeit in den sozialen Medien!\""
+        }
+    ]
+}

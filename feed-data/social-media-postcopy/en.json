@@ -1,0 +1,31 @@
+{
+    "title": "Social Media Post/Copy",
+    "templateSlug": "social-media-postcopy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 50,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "write a social media post from 150 to 280 characters for this product/brand:",
+            "input": [
+                {
+                    "label": "Product/brand name",
+                    "name": "product/brandName",
+                    "sample": "Semrush",
+                    "placeholder": "Enter the name of the product/brand",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Semrush is like a keyword research tool, Google Trends, Moz, Hootsuite, and SimilarWeb in one. Get measurable results from online marketing with Semrush — do SEO, content marketing, competitor research, PPC, and social media marketing from just one platform.",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": false
+                }
+            ],
+            "output": "Looking for a platform that does it all? Look no further than Semrush! This powerful tool can help with SEO, content marketing, competitor research, PPC and social media marketing. Get measurable results and take your online marketing to the next level!"
+        }
+    ]
+}

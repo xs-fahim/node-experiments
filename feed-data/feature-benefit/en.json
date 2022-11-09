@@ -1,0 +1,71 @@
+{
+    "title": "Feature - Benefit",
+    "templateSlug": "feature-benefit",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 53,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Tumblr",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Tumblr is a microblogging and social networking site that allows users to create an online diary or blog. Users can follow their favorite interests, other Tumblrs, and brand influencers to share content to and from. You can reblog posts, photos or videos that you like and share on your blog for your followers to see. Tumblr was relatively popular among tweens and teens in its heyday, circa 2013.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standard benefits:\r\n- Share your photos with the world. \r\n- Get inspiration from other people's posts. \r\nEmotional benefits:\r\n- Create a space to share and explore interests that you love. \r\n- Be able to connect with others who have similar passions as you do."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dove Original Beauty Bar",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dove Original Beauty Bar and gentle skin cleanser combine a gentle cleansing formula with our signature 1/4 moisturizing cream to hydrate and nourish skin, instead of leaving skin feeling dry and tight like an ordinary bar soap might. Dove mild cleansers help skin retain its natural moisture, which helps replenish skin-natural nutrients that can be lost during the cleansing process.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standard benefits:\r\n- Helps skin retain its natural moisture.\r\n- Lathers up nicely. \r\nEmotional benefits:\r\n- Keep your skin looking and feeling healthy."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gillette MACH3 Turbo",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "The three blades of the Gillette MACH3 Turbo are treated with Advanced Anti-Friction Coating, allowing the MACH3 Turbo to remove each hair with less feel of irritation. Soft, protective Micro fins gently smooth down the skin, allowing the MACH3 Turbo to shave evenly and effortlessly. The Indicator Lubrication Strip helps ensure that your MACH3 Turbo razor blade keeps gliding across your skin, shave aftershave.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standard benefits:\r\n- Get a close shave\r\n- No irritation or cuts\r\nEmotional benefits:\r\n- Feel like you're in the manliest club on earth. \r\n- Never worry about having an uncomfortable feeling on your face again"
+        }
+    ]
+}

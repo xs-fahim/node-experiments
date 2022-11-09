@@ -1,0 +1,51 @@
+{
+    "title": "Pros and Cons",
+    "templateSlug": "pros-and-cons",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 113,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Medicina moderna",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "escribir los pros y los contras de consumir / usar la medicina moderna",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Ventajas:\r\n\r\n- Puede curar muchas enfermedades\r\n\r\n- Puede salvar vidas\r\n\r\n- Muchas personas viven más tiempo gracias a la medicina moderna\r\n\r\nContras:\r\n\r\n- La medicina no siempre es efectiva\r\n\r\n- Algunos medicamentos causan efectos secundarios\r\n\r\n- A veces el tratamiento tarda demasiado en funcionar"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Marketing por correo electrónico",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "dame las ventajas y desventajas del email marketing",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Ventajas:\r\n\r\n- Puede enviar correos electrónicos a sus clientes automáticamente\r\n\r\n- Le resulta fácil actualizar la información en un solo lugar\r\n\r\nContras:\r\n\r\n- A los clientes no les gusta\r\n\r\n- Es difícil conseguir que la gente se inscriba en tu lista"
+        }
+    ]
+}

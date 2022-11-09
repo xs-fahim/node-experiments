@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Compression",
+    "templateSlug": "paragraph-compression",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 65,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Resume el siguiente párrafo en una oración:",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "Con la introducción de un \"portafolio profesional\" por parte de LinkedIn, ahora puede compartir fácilmente contenido visual en su perfil de LinkedIn para demostrar sus capacidades más de lo que podrían hacerlo los CV. Desde piezas de cartera hasta presentaciones y videos, ahora puede mostrar su trabajo en su perfil importando el contenido de una página web o cargando sus piezas de trabajo favoritas directamente desde su computadora. En lugar de decirles a los empleadores potenciales lo que puede hacer, muestre su trabajo y deje que hable por sí mismo.",
+                    "placeholder": "Enter the paragraph to be summarized",
+                    "required": true
+                }
+            ],
+            "output": "Con la introducción de un \"portafolio profesional\" por parte de LinkedIn, ahora es posible compartir fácilmente contenido visual en el perfil de LinkedIn para demostrar capacidades de forma más efectiva que con un CV."
+        }
+    ]
+}

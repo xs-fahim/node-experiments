@@ -1,0 +1,111 @@
+{
+    "title": "Attention Interest Desire Action (AIDA)",
+    "templateSlug": "attention-interest-desire-action-aida",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 139,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Trello",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Trello is a collaborative work management app designed to track team projects, highlight tasks underway, show who they are assigned to, and detail progress towards completion.\r\n\r\nAt its core, Trello relies on the principles of Kanban project boards to visualize workflows, providing managers and team members with a simple overview of a project from start to finish.\r\n\r\nTrello’s key components are boards, lists, and cards.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention: Do you want to improve your team's productivity?\r\nInterest: Trello is a collaborative work management app that can help you get organized and stay on top of projects. With Trello, you can easily track team projects, highlight tasks underway, show who they are assigned to, and detail progress towards completion.\r\nDesire: Trello is an easy way to collaborate with your team and stay on top of all the details. You can use it for any type of project - from personal goals to office tasks. Its simple design makes it easy for everyone to get started right away.\r\nAction: Click and see why Trello has been trusted by millions of people around the world!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Typeform",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Typeform is a popular online form builder and survey tool. It specializes in a conversational one question at a time experience that feels more like a conversation when compared to the regular form flow.\r\n\r\nMost notably, Typeform has an attractive interface and form style that’s become its trademark. It uses a simple drag-and-drop interface to add questions, and you can customize your form with images and videos to make it more personalized.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention: Are you tired of boring online forms?\r\nInterest: Typeform is an online form builder and survey tool that makes it easy to create an engaging experience for your customers. This conversational interface allows you to build a form that feels more like a conversation than a traditional form.\r\nDesire: The clean, conversational style of Typeform makes it perfect for gathering information from customers, members, or employees. You can also use it for marketing research, event management, and more.\r\nAction: Get started now to see how Typeform helps you create engaging surveys for your business!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Kleenex",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Kleenex is a brand name for facial tissues, bathroom tissue, paper towels, and diapers. The name Kleenex has become a noun in many dictionaries, meaning a facial tissue, whatever the brand. The Kimberly-Clark Corporation created Kleenex tissues in 1924. The original material Kleenex came from was called ‘Cellucotton’ and was designed for gas masks in WWI. It took ten years for Kimberly-Clark to market Kleenex as a disposable handkerchief.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention: Are you wiping your nose with your sleeve?\r\nInterest: Kleenex is the household name for facial tissue and can be found in almost every home. We have a variety of tissues for every need, from soft and gentle to strong and durable. You can also find our products in many stores including grocery stores, drugstores, and big-box retailers.\r\nDesire: Kleenex tissues are soft and gentle on your skin. They come in a variety of shapes and sizes to meet your needs. You can choose from our original white facial tissues or try one of the many other products we offer.\r\nAction: Find out why Kleenex is the #1 choice for facial tissues, bathroom tissue, paper towels, and diapers!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Amazon Echo Dot 4th Gen",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Amazon Echo Dot 4th Gen is a Smart Speaker With Clock and Alexa Voice Assistant. most popular smart speaker with Alexa. The sleek, compact design delivers crisp vocals and balanced bass for a full sound. it is perfect for your nightstand as you can see the time, alarms, and timers on the LED display. Tap the top to snooze an alarm. You can ask Smart voice assistant Alexa to tell a joke, play music, answer questions, play the news, check the weather, set alarms, and more.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention: Do you want to get the most out of your day?\r\nInterest: The Echo Dot is a hands-free, voice-controlled device that uses Alexa to do things for you. It can play music, answer questions, and manage your smart home. You can use it from anywhere in the room with built-in microphones and speakers.\r\nDesire: This smart speaker is perfect for all of your needs. You will never have to look for your phone again because it's always there when you need it! It can even tell you the news, weather, and more!\r\nAction: Find out more about this amazing assistant-at-home!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gatorade",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Gatorade is an American brand of sports-themed beverage and food products, built around its signature line of sports drinks. It's currently manufactured by PepsiCo and is distributed in over 80 countries. The beverage was first developed in 1965 by a team of researchers led by Dr. Robert Cade. It was originally made to replenish the carbohydrates that the school's student-athletes burned and the combination of water and electrolytes that they lost in sweat during rigorous sports activities.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Attention: Do you need a drink that will quench your thirst and replenish your energy?\r\nInterest: Gatorade is a sports beverage that was created to provide the right balance of water and electrolytes to help athletes stay hydrated, maintain energy levels and recover faster.\r\nDesire: The latest innovation in Gatorade is the G Series. It's formulated to be low-calorie with no sugar or artificial sweeteners. It also contains protein to help build lean muscle, support healthy recovery and provide more energy.\r\nAction: Learn more about Gatorade, the new G series, and all the awesomeness they bring!"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Explain Why",
+    "templateSlug": "explain-why",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 137,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Por qué el cielo es azul?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "las razones detrás del color del cielo",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "El azul del cielo se debe a la luz solar que se refleja en las partículas de la atmósfera.\r\n\r\nEn concreto, cuando la luz solar incide en la atmósfera, se divide en diferentes colores. El azul se dispersa más que otros colores porque viaja como ondas más cortas y pequeñas. Por eso el cielo es azul la mayor parte del tiempo."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Por qué nuestras lágrimas son saladas?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "explicar las razones científicas",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Hay tres razones por las que las lágrimas son saladas. En primer lugar, las lágrimas que salen de los ojos pasan por la nariz, y la sal de las lágrimas ayuda a eliminar las bacterias de la nariz. En segundo lugar, cuando lloras, las lágrimas ayudan a eliminar los irritantes y el polvo de tus ojos. En tercer lugar, las lágrimas contienen una sustancia química llamada lisozima que ayuda a destruir las bacterias."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Por qué son famosas las kardashians?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "describir las razones detrás de la fama ridículamente excesiva que ha tenido la familia Kardashian",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "No hay una respuesta única para esta pregunta, ya que la fama de las Kardashian varía mucho según a quién se le pregunte. Sin embargo, algunas de las razones que explican su ridícula y excesiva fama son: su cinta sexual filtrada, su reality show y sus estrechas relaciones con otras celebridades. Además, son maestros de la autopromoción y saben cómo mantenerse en el ojo público."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Por qué no podemos vivir en Marte?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "dime las razones por las que Marte no es habitable",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Hay varias razones por las que Marte no es habitable. La más importante es que la atmósfera de Marte es muy fina y no tiene suficiente oxígeno para albergar vida. Además, la temperatura en Marte es demasiado fría para que los seres humanos vivan cómodamente, y el planeta recibe constantemente la dura radiación del sol. Por último, la superficie de Marte está cubierta de polvo y rocas, lo que dificultaría la vida de los seres humanos."
+        }
+    ]
+}

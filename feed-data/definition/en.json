@@ -1,0 +1,24 @@
+{
+    "title": "Definition",
+    "templateSlug": "definition",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 26,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "one-line definition for:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "venture capital",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "venture capital is a type of investment funding used to encourage start-ups and early-stage companies to achieve higher levels of success."
+        }
+    ]
+}

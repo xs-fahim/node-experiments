@@ -1,0 +1,24 @@
+{
+    "title": "Sentence Rewriter",
+    "templateSlug": "sentence-rewriter",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 29,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generieren Sie eine Variation dieses Satzes:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Wenn wir über ein bestimmtes Thema sprechen, ist Klarheit sehr wichtig.",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                }
+            ],
+            "output": "Wenn wir über ein bestimmtes Thema sprechen, ist Klarheit sehr wichtig."
+        }
+    ]
+}

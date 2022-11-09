@@ -1,0 +1,24 @@
+{
+    "title": "Next sentence",
+    "templateSlug": "next-sentence",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 46,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Escribe una oración de seguimiento a: ",
+            "input": [
+                {
+                    "label": "Sentence",
+                    "name": "sentence",
+                    "sample": "Érase una vez, en una galaxia muy lejana, vivía una pandilla de monstruos felices y un frágil niño humano secuestrado por ellos.",
+                    "placeholder": "Enter the sentence to be followed-up",
+                    "required": true
+                }
+            ],
+            "output": "Al principio, el niño estaba asustado de los monstruos, pero pronto se dio cuenta de que eran amables y se convirtió en amigo de ellos."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Outline",
+    "templateSlug": "outline",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 109,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Enumere los encabezados de las publicaciones de blog para: ",
+            "input": [
+                {
+                    "label": "Blog intro",
+                    "name": "blogIntro",
+                    "sample": "La mejor forma de evitar las arrugas y aprovechar al máximo el espacio es utilizar el método del rollo. Coloque la parte superior boca abajo, doble las mangas y enrolle de abajo hacia arriba. Para los pantalones, junta las piernas y enróllalas de cintura para abajo. Una vez que hayas enrollado todo, coloca los pantalones y las blusas en tu maleta antes que los zapatos y los accesorios; luego, coloque otros artículos con formas extrañas, como herramientas para el cabello.",
+                    "placeholder": "Enter a few lines of the intro to get an outline",
+                    "required": true
+                }
+            ],
+            "output": "1. La mejor forma de evitar las arrugas\r\n2. Aprovechar al máximo el espacio en la maleta\r\n3. El método del rollo para doblar la ropa\r\n4. Colocando los pantalones y las blusas en la maleta antes que los zapatos y los accesorios\r\n5. Colocando otros artículos con formas extrañas en la maleta"
+        }
+    ]
+}

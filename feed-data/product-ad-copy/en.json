@@ -1,0 +1,111 @@
+{
+    "title": "Product Ad Copy",
+    "templateSlug": "product-ad-copy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 64,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Buffer",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Buffer is a software application for the web and mobile, designed to manage accounts in social networks, letting users schedule posts to Twitter, Facebook, Instagram, Pinterest, and LinkedIn, as well as analyze their results and engage with their community.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Buffer— The Ultimate Social Media Tool — Saves Time & Gets Results!\r\nBuffer is The Fastest, Easiest Way To Share Your Content On Social Media. Schedule Posts With Just A Few Clicks. Try It Free For 14 Days! Get More Customer Engagement On Social Media and Schedule Posts Quickly & Easily."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dunkin' Donuts",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dunkin’ Donuts is the world’s leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin’ Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, sandwiches & more!",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Bakery Near You - Dunkin' Donuts'\r\n'The World's Largest Bakery Chain & Coffee House! Shop Our Products Online Today! Free Same-Day Pick-Up In Store. Shop Fresh Today & Earn Rewards Points! From Our Baked Goods To Our Coffee, We've Got You Covered."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Uber",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Uber is a ridesharing company that hires independent contractors as drivers. It's one of many services today that contribute to the sharing economy, supplying a means of connecting existing resources instead of providing the physical resources themselves.\r\nUber links passengers with drivers using the Uber app. Generally, the drivers own their own car. The company does also offer rental or lease on cars through third party partners.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Save Money on Rides - Get an Uber!\r\nTry Safe, Affordable Rides. Your Door To Door Ride Share, No Parking Hassles. Ride-sharing for the people. Pay With Your Credit Card. Get a Ride in Minutes."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Boots Cucumber Moisturizing Cream",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Lovingly formulated Boot’s skincare range is enriched with cooling cucumber and vitamins to gently care for your skin.\r\n\r\nBoot’s moisturizing cream with added antioxidants is perfect for you to use both day and night. Leaving you with hydrated, nourished, and beautifully soft skin.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Boot's Moisturizing Cream - Perfect for Day or Night\r\nTreat your skin to the amazing Boot’s range. Lovingly formulated with cooling cucumber and vitamins. Gently care for your skin with Boots. Offering great skin care."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "YOSUDA Exercise Bike L-007A",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Well-built exercise bike from the inside out. With its rock-solid foundation and athletic + aesthetic design, it's at the top of the game. With thickened frame tubes, precision manufacturing overcomes the wobbly defect of most of the cycle bikes on the market. Give you safer riding. Excellent bearing capacity for riders up to 330LBS. This is an energetic exercising bike, bringing you a cycling experience which is compared with riding classes!",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Exercise Bike from YOSUDA - Get an Energetic Exercising!\r\nThe Ultimate Exercise Bike For A More Athletic & Aesthetic Workout. Built To Last: Rock-Solid Foundation, Thickened Frame, Precision Manufacturing. Up To 330LBS Capacity - Ride With Confidence! Heavy Duty Bike Frame + Excellent Bearing Capacity = More Fun! Bring Cycling Experience To Your Home!"
+        }
+    ]
+}

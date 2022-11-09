@@ -1,0 +1,111 @@
+{
+    "title": "WooCommerce Product Short Description",
+    "templateSlug": "woocommerce-product-short-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 76,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Garantia Stone 2 in1 Water Tank",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "water tank, 2 in 1, harvest rainwater, water butt, planter cup on top, integrated thread",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "This 2 in 1 Water Tank lets you harvest your rainwater in style! The 2 in 1 capability harvests rainwater from your downpipes and collects it from the plant-cup top. The modern finish allows this water butt to be the feature of any garden, whilst making the most of the rainwater. This water butt comes with an integrated thread, making it easy for you to connect the tap. The planter cup in the top is removable to make planting as easy as possible and allow you to customize your water butt, whilst also allowing the inside of the tank to be cleaned regularly."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Hulk vs. Thor: Banner of War Alpha #1",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "Ryan Stegman, only copy, 9.6 NM+ conditions, hard-to-find, CGC census",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Available for sale is the Ryan Stegman 1:50 Variant of Hulk vs. Thor: Banner of War Alpha #1 graded by CGC in 9.6 NM+ conditions. According to the CGC Census, this is the only copy of this ratio variant to be graded, making it a true one-of-a-kind (for the moment). Add this hard-to-find comic to your collection today!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Organic Catnip Bow Tie Toy",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "catnip-filled toy, handcrafted in Cornwall, recycled padding",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "A fabulous kitty-approved catnip-filled toy, in the shape of a cute bow tie! Lovingly handcrafted in Cornwall from reclaimed fabric, recycled padding, and organic catnip."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Robyn the Octopus knitting kit",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "tactile, tiny tentacles, local Yorkshire mill, soft, 50% merino and 50% acrylic, machine washable",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Robyn the Octopus knitting kit is so tactile, his tentacles wrap around and give a real good cuddle. Though appealing to children and adults alike, his tiny tentacles and perfect for little hands to hold. We are proud to be working with a local Yorkshire mill to produce our very own Beau Baby DK yarn. Our Baby Beau yarn is a mixture of 50% merino and 50% acrylic. It's super soft and also machine washable."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Samadara",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "sodashi, anti-aging, smooth fine lines and wrinkles",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Samadara is Sodashi’s most powerful anti-aging range to transform and reawaken skin. A collection of three miraculous products to help visibly smooth fine lines and wrinkles."
+        }
+    ]
+}

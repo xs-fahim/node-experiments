@@ -1,0 +1,24 @@
+{
+    "title": "Outline",
+    "templateSlug": "outline",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 136,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Blogpost-Überschriften auflisten für:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Der beste Weg, um Falten zu vermeiden und den Platz optimal zu nutzen, ist die Rollmethode. Das Oberteil auf den Kopf stellen, die Ärmel falten und von unten nach oben rollen. Legen Sie für Hosen Ihre Beine zusammen und rollen Sie sie von der Taille nach unten. Wenn Sie alles zusammengerollt haben, legen Sie Ihre Hosen und Blusen vor Ihre Schuhe und Accessoires in Ihren Koffer; Platzieren Sie dann andere Gegenstände mit seltsamen Formen, wie z. B. Haarwerkzeuge.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "1) Das beste Falten- und Pack-System für den perfekten Urlaub\r\n2) Die Rollmethode – der beste Weg, um Falten zu vermeiden und Platz zu sparen\r\n3) Wie man Hosen und Blusen richtig faltet und in den Koffer packt\r\n4) Die ultimative Packliste für den perfekten Urlaub – mit Falten-Tipps!\r\n5) Die besten Tipps für das Falten und Packen von Kleidung für den Urlaub"
+        }
+    ]
+}

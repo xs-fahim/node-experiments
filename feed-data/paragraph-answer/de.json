@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Answer",
+    "templateSlug": "paragraph-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 115,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Geben Sie eine ausführliche Antwort auf Deutsch:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Wie kann ich ein gesundes Leben führen und meine Lebenserwartung erhöhen?",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Es gibt viele verschiedene Möglichkeiten, ein gesundes Leben zu führen und die Lebenserwartung zu erhöhen. Einige dieser Möglichkeiten sind regelmäßige Bewegung, ausgewogene Ernährung, ausreichender Schlaf, Vermeidung von Stress und regelmäßige Kontrolluntersuchungen beim Arzt."
+        }
+    ]
+}

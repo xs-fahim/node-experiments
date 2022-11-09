@@ -1,0 +1,71 @@
+{
+    "title": "Meta Description",
+    "templateSlug": "meta-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 30,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "What Is Off-Page SEO? A Comprehensive Guide",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "what is off-page SEO",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Take a dive deep into the world of what is off-page SEO and how to do it right with these 15+ actionable tips!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "How to Clean a Coffee Grinder",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "cleaning coffee grinder",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Here’re the best ways of cleaning coffee grinder so that it gives you good-tasting, consistently ground coffee for decades!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "How to Write Website Content with AI Content Writers",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "how tiktok ads work",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": true
+                }
+            ],
+            "output": "Do you want to target TikTok users? Discover how TikTok ads work, the pros and cons of using them plus the steps to set it all up. "
+        }
+    ]
+}

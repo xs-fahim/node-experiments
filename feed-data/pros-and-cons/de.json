@@ -1,0 +1,71 @@
+{
+    "title": "Pros and Cons",
+    "templateSlug": "pros-and-cons",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 136,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Medicina moderna",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": " Schreiben Sie die Vor- und Nachteile des Konsums / der Verwendung moderner Medizin",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": true
+                }
+            ],
+            "output": "Vorteile:\r\n     - Es rettet Leben\r\n     - Es kann viele Krankheiten heilen\r\n     - Es kostet weniger als die traditionelle Medizin\r\n     Nachteile:\r\n     - Ärzte machen Fehler\r\n     - Medikamente können Ihre Gesundheit gefährden\r\n     - Sie bekommen vielleicht nicht, was Sie wollen"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Minimalistischer Lebensstil",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "die Vor- und Nachteile eines minimalistischen Lebens",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": true
+                }
+            ],
+            "output": "Vorteile:\r\n\r\n- Kein Durcheinander, kein Ärger\r\n\r\n- Weniger Stress\r\n\r\n- Mehr Zeit für sich selbst\r\n\r\nBenachteiligungen:\r\n\r\n- Sie müssen hinter Ihnen aufräumen\r\n\r\n- Ihr Haus wird wie ein Museum aussehen\r\n\r\n- Sie können nicht mit Ihrem eigenen Fahrzeug durch die Stadt fahren\r\n"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Email marketing",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "Geben Sie mir die Vor- und Nachteile des E-Mail-Marketings",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": true
+                }
+            ],
+            "output": "Vorteile:\r\n\r\n- E-Mails sind billiger als Direktwerbung\r\n\r\n- Sie können E-Mails an alle Ihre Kunden auf einmal versenden, anstatt dies einzeln zu tun.\r\n\r\nNachteile:\r\n\r\n- Kunden mögen es nicht, unaufgefordert E-Mails von Ihnen zu erhalten\r\n\r\n- Der Spam-Filter Ihres Kunden könnte Ihre Nachrichten blockieren."
+        }
+    ]
+}

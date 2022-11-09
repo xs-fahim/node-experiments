@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Compression",
+    "templateSlug": "paragraph-compression",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Summarize the following paragraph in one sentence:",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "With the introduction of a ‘professional portfolio’ by LinkedIn, you can now easily share visual content on your LinkedIn profile to demonstrate your capabilities more than what CVs ever could. From portfolio pieces to presentations to videos, you can now display your work on your profile by importing the content from a webpage or uploading your favorite work pieces straight from your computer. Instead of telling potential employers what you can do, display your work and let it speak for itself.",
+                    "placeholder": "Enter the paragraph to be summarized",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

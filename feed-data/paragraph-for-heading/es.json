@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph for Heading",
+    "templateSlug": "paragraph-for-heading",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 129,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Escriba un contenido de un párrafo para el siguiente encabezado/título: ",
+            "input": [
+                {
+                    "label": "Title/Heading",
+                    "name": "title/heading",
+                    "sample": "la primavera Arabe",
+                    "placeholder": "Enter the title/heading",
+                    "required": true
+                }
+            ],
+            "output": "La primavera árabe fue un movimiento de protesta que tuvo lugar en varios países de Oriente Medio y Norte de África a finales de 2010 y principios de 2011. Se inició en Túnez y se extendió rápidamente a Egipto, Libia, Marruecos, Jordania, Bahréin y Oman. Los manifestantes reclamaban la rendición de cuentas por parte de los gobiernos, así como reformas democráticas y sociales."
+        }
+    ]
+}

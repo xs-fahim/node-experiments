@@ -1,0 +1,24 @@
+{
+    "title": "Next Paragraph",
+    "templateSlug": "next-paragraph",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 102,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Schreiben Sie einen Absatz, der danach fortgesetzt wird:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "\"Der beste Weg, um Falten zu vermeiden und den Platz optimal zu nutzen, ist die Rollmethode. Legen Sie das Oberteil auf den Kopf, falten Sie die Ärmel und rollen Sie von unten nach oben. Für Hosen legen Sie Ihre Beine zusammen und rollen Sie sie von der Taille nach unten Wenn Sie alles zusammengerollt haben, legen Sie Ihre Hosen und Blusen vor Ihre Schuhe und Accessoires in Ihren Koffer und legen Sie dann andere Gegenstände mit seltsamen Formen, wie z. \"",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Alles zusammengerollt und in den Koffer gelegt, ist jetzt der perfekte Zeitpunkt, um andere Gegenstände mit seltsamen Formen wie z.B. Schuhe und Accessoires unterzubringen. Dadurch wird sichergestellt, dass alles seinen Platz findet und die Faltenbildung minimiert wird."
+        }
+    ]
+}

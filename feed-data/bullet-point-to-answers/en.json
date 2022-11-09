@@ -1,0 +1,76 @@
+{
+    "title": "Bullet Point to Answers",
+    "templateSlug": "bullet-point-to-answers",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 34,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "What is depreciation in economics?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "define the term in detail and multiple bullet points",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- The reduction in the value of an asset over time.\r\n\r\n- It's how much you pay for something now compared to when it was new.\r\n\r\n- It's the difference between the price you paid for something and its market value."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "How to make a cup of tea?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "describe how to prepare a cup of tea step by step",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Boil water in a kettle.\r\n\r\n- Add one teaspoon of loose-leaf tea per mug.\r\n\r\n- Let it steep for three minutes.\r\n\r\n- Pour the tea into a mug."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "What are the symptoms of Pneumonia?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "generate the list of common symptoms of pneumonia in a bulleted list",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Coughing up mucus.\r\n\r\n- Fever.\r\n\r\n- Shortness of breath.\r\n\r\n- Chest pain."
+        },
+        {
+            "instruct": "",
+            "input": [],
+            "output": ""
+        }
+    ]
+}

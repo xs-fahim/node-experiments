@@ -1,0 +1,111 @@
+{
+    "title": "Before After Bridge (BAB)",
+    "templateSlug": "before-after-bridge-bab",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 150,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Cadbury Dairy Milk Silk",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Cadbury Dairy Milk Silk is all about regaling the chocolate's richness and creaminess. The classic taste of Cadbury chocolates offers you the reason to celebrate every small and big occasion of happiness.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Before: You're tired of eating chocolate that's too hard or too soft. You've tried other brands but they never taste as good as Cadbury Dairy Milk!\r\n\r\nAfter: Imagine biting into a delicious chocolate bar that melts in your mouth, leaving you with the feeling of satisfaction and joy. This is what it feels like to eat Cadbury Dairy Milk Silk.\r\n\r\nBridge: Indulge yourself in the rich, smooth, and creamy taste of Cadbury Dairy Milk Silk for a truly indulgent experience every time you bite into one!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Slack",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Slack is an instant-messaging service to connect teams and users.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Before: You're tired of emailing back and forth with your team members. It's a huge time-waster, and you never know if something important is being lost in the shuffle!\r\n\r\nAfter: Imagine having an instant-messaging service that lets everyone on your team communicate instantly through one central location! Slack brings all conversations together into one place so that you can focus on getting work done instead of searching for it.\r\n\r\nBridge: Get rid of the clutter and start communicating better with Slack, the easiest way to connect teams instantly online. With Slack, you can search all past conversations from any device or browser at any time — so there’s no more digging around for files or sifting through endless emails when trying to find something important!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Shopify",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Shopify is a shop-as-a-service solution where you can build your own eCommerce shop.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Before: You're tired of paying loads of money just to sell your products online. You've tried using other eCommerce platforms before, but they never worked for you!\r\n\r\nAfter: Imagine having a platform that lets you build your own shop and start selling without any coding or design skills. It's easy to use, it looks great on all devices, and it comes with 24/7 support from real people who care about your success.\r\n\r\nBridge: Shopify is an eCommerce solution that allows anyone to easily create their own sleek website in minutes and start selling online right away. With its beautiful themes, powerful features, and 24/7 support team, Shopify has helped over 70k entrepreneurs run successful businesses by making the process of building eCommerce websites a piece of cake!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Zapier",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Zapier is an integrations platform to connect many different systems with each other.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Before: You're tired of logging into multiple systems and copy-pasting data. It's time-consuming and you never get it right the first time.\r\n\r\nAfter: With Zapier, you can connect hundreds of different apps with each other so that your other apps will automatically react to something that happens in one app. For example, if someone follows you on Twitter or Facebook then their name should be added to a list in Google Sheets for later use. Or if someone tags you in a photo on Instagram, then that photo should be uploaded directly onto Flickr without any manual work!\r\n\r\nBridge: Zapier is an integrations platform that connects many different systems together so you can sit back and relax!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Realme Narzo 50A",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Equipped with a Helio G85 Gaming Processor, the Realme Narzo 50A is a high-speed smartphone that lets you play intense games and binge-watch favorite shows. This smartphone features a 6000 mAh Battery and 18W Quick Charge for uninterrupted performance, and a 50 MP AI Triple Camera to click beautiful photos.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Before: You love playing games on your phone but the battery always dies before you can finish. You're tired of having to carry around a power bank everywhere you go just so you can play games for more than an hour!\r\n\r\nAfter: Imagine carrying a smartphone that lets you play all your favorite games without worrying about running out of battery. The Realme Narzo 50A has a 6000 mAh Battery and 18W Quick Charge, so it's never been easier to game on the go!\r\n\r\nBridge: With its Helio G85 Gaming Processor, 6GB RAM, and 50 MP AI Triple Camera, the Realme Narzo 50A is built for gaming and entertainment. It also features Dual VoLTE support with 4G+, so you don't feel any issues with networks!"
+        }
+    ]
+}

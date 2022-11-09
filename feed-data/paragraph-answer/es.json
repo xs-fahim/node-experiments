@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Answer",
+    "templateSlug": "paragraph-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 152,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Da una respuesta detallada en español: ",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Cómo puedo vivir una vida saludable y aumentar mi esperanza de vida?",
+                    "placeholder": "Enter the question for a detailed answer",
+                    "required": true
+                }
+            ],
+            "output": "Hay muchas maneras en que las personas pueden vivir una vida saludable y aumentar su esperanza de vida. Algunas de estas maneras incluyen hacer ejercicio regularmente, comer una dieta saludable, mantener un peso saludable, no fumar cigarrillos, y evitar el consumo excesivo de alcohol. Otras maneras de mejorar la salud y aumentar la esperanza de vida incluyen reducir el estrés, dormir lo suficiente, y tener un buen apoyo social."
+        }
+    ]
+}

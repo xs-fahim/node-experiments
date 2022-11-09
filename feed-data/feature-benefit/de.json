@@ -1,0 +1,91 @@
+{
+    "title": "Feature - Benefit",
+    "templateSlug": "feature-benefit",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 141,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Uber",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": " Uber ist ein Ridesharing-Unternehmen, das unabhängige Auftragnehmer als Fahrer einstellt. Es ist heute einer von vielen Diensten, die zur Sharing Economy beitragen, indem sie ein Mittel zum Verbinden vorhandener Ressourcen bereitstellen, anstatt die physischen Ressourcen selbst bereitzustellen. Uber verbindet Fahrgäste mit Fahrern über die Uber-App. In der Regel besitzen die Fahrer ein eigenes Auto. Das Unternehmen bietet auch die Vermietung oder das Leasing von Autos über Drittpartner an.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standardvorteile:\r\n- Holen Sie sich schnell und einfach eine Fahrt, ohne ein Taxi zu rufen oder auf den Bus zu warten.\r\n- Sparen Sie Geld bei den Transportkosten.\r\nEmotionale Vorteile:\r\n- Fühle dich wie ein VIP, wenn sie ihn in einem Luxusauto mitnehmen.\r\n- Genießen Sie den Komfort, Ihr Ziel mit nur ein paar Berührungen auf Ihrem Telefon zu erreichen."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gillette MACH3",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Die drei Klingen des Gillette MACH3 Turbo sind mit einer Advanced Anti-Friction Coating behandelt, sodass der MACH3 Turbo jedes Haar mit weniger Irritationsgefühl entfernen kann. Weiche, schützende Mikrolamellen glätten sanft die Haut, sodass sich der MACH3 Turbo gleichmäßig und mühelos rasieren kann. Der Indicator Lubrication Strip hilft sicherzustellen, dass Ihre MACH3 Turbo Rasierklinge weiterhin über Ihre Haut gleitet, Aftershave rasieren.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standardleistungen:\r\n- Komfortableres Rasieren\r\n- Holen Sie sich eine hastigere Rasur\r\n- Weniger Reizung\r\nEmotionale Vorteile \r\n- Fühlen Sie sich sicher und gutaussehend, ohne sich um lästige Bärte kümmern zu müssen \r\n- Eine beeindruckende Technologie, mit der Sie sich wie ein König fühlen werden"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "The Sun",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "The Sun ist eine britische Boulevardzeitung, die von der News Group Newspapers Division von News UK herausgegeben wird, die selbst eine hundertprozentige Tochtergesellschaft von Rupert Murdochs News Corp ist. Sie wurde 1964 als Broadsheet als Nachfolger des Daily Herald gegründet und wurde zu einer Boulevardzeitung 1969, nachdem es von seinem jetzigen Besitzer gekauft wurde.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "Standardleistungen:\r\n- Erhalten Sie die neuesten Nachrichten und aktuellen Ereignisse.\r\n- Lesen Sie Meinungsartikel und Leitartikel von einigen der besten Journalisten Großbritanniens.\r\nEmotionale Vorteile:\r\n- Informiert euch über das, was in eurem Land und in der Welt geschieht.\r\n"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Tumblr",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Tumblr ist eine Microblogging- und Social-Networking-Site, die es Benutzern ermöglicht, ein Online-Tagebuch oder einen Blog zu erstellen. Benutzer können ihren Lieblingsinteressen, anderen Tumblrs und Markenbeeinflussern folgen, um Inhalte mit und von ihnen zu teilen. Sie können Posts, Fotos oder Videos, die Ihnen gefallen, „rebloggen“ und in Ihrem Blog teilen, damit Ihre Follower sie sehen können. Tumblr war in seiner Blütezeit, etwa 2013, bei Tweens und Teenagern relativ beliebt.",
+                    "placeholder": "Enter the product's features here to generate its benefits",
+                    "required": true
+                }
+            ],
+            "output": "\"Standardleistungen:\r\n- Tumblr ist eine großartige Möglichkeit, Ihre Gedanken und Ideen mit der Welt zu teilen.\r\n- Sie können anderen Tumblrn folgen, die Sie interessieren, und deren Inhalte mit Ihren Followern teilen.\r\n- Tumblr ist perfekt, um Ihr Unternehmen oder Ihren Blog zu bewerben.\r\nEmotionale Vorteile:\r\n- Tumblr gibt dir eine Stimme in der heutigen Gesellschaft.\r\n- Sie können sich mit Menschen aus der ganzen Welt verbinden, die Ihre Interessen teilen.\""
+        }
+    ]
+}

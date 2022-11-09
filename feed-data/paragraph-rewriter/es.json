@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Rewriter",
+    "templateSlug": "paragraph-rewriter",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 148,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generar una variación diferente: ",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "El ejercicio es una parte natural de nuestras vidas, pero también puede incluir otras actividades como la jardinería o las compras. Socializar mientras se hace algo físicamente puede resultar natural para algunas personas, mientras que las actividades artificiales agrupadas como \"ejercicio\" no suenan tan atractivas.",
+                    "placeholder": "Enter the paragraph to be rewritten",
+                    "required": true
+                }
+            ],
+            "output": "El ejercicio es una parte importante de nuestras vidas, pero también podemos hacer otras actividades para mantenernos activos y saludables. La jardinería y las compras son solo algunos ejemplos. Hacer ejercicio también puede ser una forma de socializar, lo cual es natural para algunas personas. Las actividades artificiales agrupadas como \"ejercicio\" pueden no sonar tan atractivas, pero son importantes para mantener nuestra salud y bienestar."
+        }
+    ]
+}

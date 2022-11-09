@@ -1,0 +1,24 @@
+{
+    "title": "Outline",
+    "templateSlug": "outline",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write blog outline as list",
+            "input": [
+                {
+                    "label": "Blog intro",
+                    "name": "blogIntro",
+                    "sample": "Nulled or cracked software might contain malware and viruses that infect your computer. These viruses steal your data and sometimes make your device invalid. So, it is highly recommended not to use a cracked version of the software. Besides security reasons, it's completely unethical and like theft. ",
+                    "placeholder": "Enter a few lines of the intro to get an outline",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

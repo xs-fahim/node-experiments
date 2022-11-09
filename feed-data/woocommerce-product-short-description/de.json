@@ -1,0 +1,91 @@
+{
+    "title": "WooCommerce Product Short Description",
+    "templateSlug": "woocommerce-product-short-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 179,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Garantia Stone 2 in1 Water Tank",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "Wassertank, 2 in 1, Regenwasser ernten, Wasserkolben, Pflanzbecher oben, integriertes Gewinde",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Auf der Suche nach einem Wassertank, der alles kann? Suchen Sie nicht weiter als nach dem 2-in-1-Wassertank von Garantia Stone. Dieser Regenwassersammeltank ist perfekt für diejenigen, die ihre Pflanzen gesund und hydratisiert halten möchten. Er kann auch als normaler Wassertank verwendet werden und ist somit perfekt für diejenigen, die ihr Zuhause gut mit H2O versorgen möchten. Und das Beste? Der Stone 2-in-1-Garantie-Wassertank wird mit einem integrierten Topfbecher geliefert, der das Befüllen und den Transport erleichtert. Worauf wartest du? Holen Sie sich noch heute den Garantia Stone 2 in1 Wassertank."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Samadara",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "Sodashi, Anti-Aging, glatte feine Linien und Falten",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Samadara ist ein magisches Anti-Aging-Serum, das für die Glättung feiner Linien und Fältchen sorgt. Es wird mit Sodashi hergestellt, einem starken Anti-Aging-Inhaltsstoff, der Ihre Haut verjüngt und erneuert. Samadara enthält auch andere nützliche Inhaltsstoffe wie Hyaluronsäure, die helfen, die Haut aufzufüllen und mit Feuchtigkeit zu versorgen. Dieses Serum lässt sich leicht auftragen und macht Ihre Haut weich und glatt."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Organic Catnip Bow Tie Toy",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "Mit Katzenminze gefülltes Spielzeug, handgefertigt in Cornwall, recycelte Polsterung",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Dieses Katzenminze-Spielzeug mit Fliege ist der perfekte Weg, um Ihrem Kätzchen etwas Liebe zu zeigen. Hergestellt aus Bio-Katzenminze sorgt es dafür, dass sich Ihre Katze glücklich und wohl fühlt. Außerdem ist es in Cornwall mit recyceltem Füllmaterial handgefertigt, also auch umweltfreundlich."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Robyn the Octopus knitting kit",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "fühlbar, winzige Tentakel, lokale Yorkshire-Mühle, weich, 50 % Merinowolle und 50 % Acryl, maschinenwaschbar",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": true
+                }
+            ],
+            "output": "Robyn Octopus ist das perfekte Strickset für alle, die das Stricken lernen möchten. Dieses Kit enthält alles, was Sie für den Anfang benötigen, einschließlich eines weichen Garns aus 50 % Merinowolle und 50 % Acryl, das in der Maschine gewaschen werden kann. Das Kit enthält auch eine lokale Yorkshire-Mühle, wodurch es perfekt für alle ist, die das lokale Geschäft unterstützen möchten. Schließlich wird das Kit mit kleinen Tentakeln geliefert, die sicher ein lustiges und taktiles Erlebnis bieten."
+        }
+    ]
+}

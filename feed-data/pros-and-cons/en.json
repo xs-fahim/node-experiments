@@ -1,0 +1,91 @@
+{
+    "title": "Pros and Cons",
+    "templateSlug": "pros-and-cons",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 92,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Modern medicine",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "write the pros and cons of consuming/using modern medicine",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Pros:\r\n\r\n- Modern medicine saves lives\r\n\r\n- Modern medicine cures diseases\r\n\r\n- Modern medicine prolongs life\r\n\r\nCons:\r\n\r\n- Modern medicine costs too much\r\n\r\n- Modern medicine causes side effects\r\n\r\n- Modern medicine is addictive"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Minimalistic lifestyle",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "the benefits and drawbacks of leading a minimalistic life",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Pros:\r\n\r\n- Minimalism saves money\r\n\r\n- You don't have to buy anything you don't need\r\n\r\n- It's easier to travel light\r\n\r\nCons:\r\n\r\n- Minimalist life isn't for everyone\r\n\r\n- Traveling with less stuff can be stressful\r\n\r\n- Minimalism doesn't always save money"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Cold email outreach",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "give me the advantages and disadvantages of cold outreaching via emails",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Pros:\r\n\r\n- You can get in touch with many people at once\r\n\r\n- You don't have to write an entire letter or cover sheet for each person\r\n\r\n- It's easy to do\r\n\r\nCons:\r\n\r\n- People might not respond\r\n\r\n- They might think you're spamming them\r\n\r\n- Your message may be too long"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Estilo de vida minimalista",
+                    "placeholder": "Enter a topic to get the pros and cons of it",
+                    "required": true
+                },
+                {
+                    "label": "Context/Additional Instruction",
+                    "name": "context/additionalInstruction",
+                    "sample": "los beneficios e inconvenientes de llevar una vida minimalista",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Ventajas:\r\n\r\n- Puedes ahorrar dinero viviendo en una casa más pequeña, comiendo menos y sin tantas cosas.\r\n\r\n- Es muy fácil viajar con un mínimo de cosas.\r\n\r\nContras:\r\n\r\n- Tu ropa puede desgastarse más rápido\r\n\r\n- Puede ser más difícil encontrar buenos trabajos si no tienes muchas posesiones materiales."
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Problem, Agitate, Solution (PAS)",
+    "templateSlug": "problem-agitate-solution-pas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 172,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Cadbury Dairy Milk Silk",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Bei Cadbury Dairy Milk Silk dreht sich alles darum, den Reichtum und die Cremigkeit der Schokolade zu genießen. Der klassische Geschmack der Cadbury-Pralinen bietet Ihnen den Grund, jeden kleinen und großen Anlass des Glücks zu feiern. Kurz gesagt, gönnen Sie sich eine reichhaltige, glatte und cremige Feier.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Sie kennen dieses Gefühl, wenn Sie das Verlangen nach Schokolade bekommen und nicht wissen, was Sie tun sollen.\r\nAgitation: Sie könnten in den Laden gehen und eine Schachtel Pralinen kaufen, aber das kann teuer, zeitaufwändig und manchmal enttäuschend sein.\r\nLösung: Wir haben die Antwort. Wir bieten eine Vielzahl von Schokoladen in verschiedenen Geschmacksrichtungen an, damit Sie Ihrem Verlangen nach Schokolade nachgehen können, wann immer Sie möchten."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "WP Ultimate Review",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": " Die Brücke zwischen Unternehmen und ihren Kunden zu schlagen, indem man beide Parteien verbindet, war noch nie so einfach! WP Ultimate Review mit seinen 10.000 + aktiven Installationen ermöglicht es WordPress-Sites, das Beste aus Bewertungen und Bewertungen herauszuholen - ohne die Geschwindigkeit der Website zu beeinträchtigen. Mühelose Integration, mehrere Bewertungsstile und Flexibilität machen dieses Plugin zur umfassendsten Review-Lösung für WordPress mit den fortschrittlichsten und einzigartigsten Funktionen.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem: Die Einrichtung eines Bewertungssystems für Ihre Website kann eine entmutigende Aufgabe sein.\r\nAgitation: WP Ultimate Review ist der beste Weg, um Bewertungen auf Ihrer Website zu erhalten, ohne dass Sie sich darum kümmern müssen.\r\nLösung: Mit einer Vielzahl von Funktionen und Stilen können Sie im Handumdrehen das perfekte Bewertungssystem für Ihre Website erstellen!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dark Temptation by Axe",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dark Temptation von Axe ist ein Parfum der Duftfamilie Amber Fougere und ist für Männer. Dark Temptation wurde 2013 ins Leben gerufen. Die Nase hinter diesem Duft ist Ann Gottlieb. Kopfnoten sind Kirsche, Birne, Ingwer und Koriander; Die Herznoten sind Paprika, Salbei und Basilikum; Basisnoten sind Dunkle Schokolade, Vanille, Schlagsahne, Amber und Patchouli.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem:  Es kann eine Herausforderung sein, das richtige Parfüm für sich zu finden.\r\nAgitation: Es gibt so viele verschiedene Arten von Parfüms und so viele verschiedene Marken, aus denen man wählen kann. Woher weiß man, was am besten zu einem passt?\r\nLösung: Dark Temptation von Axe ist ein Duft von Axe, der perfekt für Männer ist, die einen dunklen, sinnlichen Duft suchen. Die Noten dieses Duftes ziehen garantiert die Aufmerksamkeit auf sich."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Airbnb",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Airbnb ist ein Online-Marktplatz, der Menschen, die ihr Zuhause vermieten möchten, mit Menschen verbindet, die an bestimmten Orten eine Unterkunft suchen.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problem:  Die Suche nach einer Unterkunft für einen Urlaub oder eine Geschäftsreise kann teuer und zeitaufwändig sein.\r\nAgitation: Sie haben Tage damit verbracht, zu recherchieren, zu vergleichen und Bewertungen zu lesen. Jetzt sind Sie bereit zu buchen, aber Sie sind sich nicht sicher, welche Unterkunft die beste ist.\r\nLösung: Airbnb hat über 2 Millionen Angebote in mehr als 190 Ländern. Mit unserer Vielfalt an Angeboten sorgen wir dafür, dass für jeden etwas dabei ist."
+        }
+    ]
+}

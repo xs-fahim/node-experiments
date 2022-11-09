@@ -1,0 +1,24 @@
+{
+    "title": "Short Answer",
+    "templateSlug": "short-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 44,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Responda esta pregunta brevemente: ",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Qué es el link building en SEO?",
+                    "placeholder": "Enter your question",
+                    "required": true
+                }
+            ],
+            "output": "El link building en SEO es la estrategia de construcción de enlaces a un sitio web para mejorar el rankeo en los resultados de búsqueda."
+        }
+    ]
+}

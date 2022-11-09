@@ -1,0 +1,24 @@
+{
+    "title": "Featured Snippet (Numbered List)",
+    "templateSlug": "featured-snippet-numbered-list",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generate a list of steps that explain",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "how to take care of a cat",
+                    "placeholder": "Enter the topic for the list of steps",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

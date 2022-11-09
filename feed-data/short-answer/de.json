@@ -1,0 +1,24 @@
+{
+    "title": "Short Answer",
+    "templateSlug": "short-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 63,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Beantworten Sie diese Frage kurz:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Was ist Linkbuilding im SEO?",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Linkbuilding ist ein wichtiges Instrument im Suchmaschinenoptimierung. Mit Hilfe von Backlinks können Webseitenbetreiber ihre Webseite bei Suchmaschinen verbessern und somit mehr organic Traffic generieren."
+        }
+    ]
+}

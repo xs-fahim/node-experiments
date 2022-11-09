@@ -1,0 +1,91 @@
+{
+    "title": "WooCommerce Product Title",
+    "templateSlug": "woocommerce-product-title",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 38,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Kellogg's Corn Flakes with Real Strawberry Puree",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keyword",
+                    "name": "keyword",
+                    "sample": "Frühstücksflocken, Vitamin C, fettarm, cholesterinfrei, 300 Gramm",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "Kellogg's Cornflakes mit echtem Erdbeerpüree: leckeres und nahrhaftes Frühstücksmüsli\r\n"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "EvoFox Elite Play Wireless Controller",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keyword",
+                    "name": "keyword",
+                    "sample": "Dual-Vibration, Bluetooth, Gyrosensor, 10-Stunden-Gameplay",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "EvoFox Elite Play Wireless Controller (PS4-kompatibel) – Bluetooth-Wireless-Controller mit Dual-Vibration und 10 Stunden Spielspaß\r\n\r\n"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "JBL C100SI",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keyword",
+                    "name": "keyword",
+                    "sample": "In-Ear-Kopfhörer, JBL Pure Bass, Ein-Knopf-Fernbedienung, abgewinkelte Ohrhörer, schwarz",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "JBL C100SI - Dynamischer und ultraleichter Kopfhörer - Schwarz"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Nizoral Anti-dandruff Shampoo",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keyword",
+                    "name": "keyword",
+                    "sample": "Schuppen, juckende Kopfhaut, Ketoconazol",
+                    "placeholder": "Specify which keywords should the product title be based on",
+                    "required": true
+                }
+            ],
+            "output": "Nizoral Anti-Dandruff Treatment Shampoo – Lindert klinisch erwiesen Juckreiz und Abschälen der Kopfhaut, aller Haartypen und grauen Haares"
+        }
+    ]
+}

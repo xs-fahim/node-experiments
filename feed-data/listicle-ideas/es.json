@@ -1,0 +1,24 @@
+{
+    "title": "Listicle Ideas",
+    "templateSlug": "listicle-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 128,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Escribe diferentes variaciones de títulos de artículos basados en listas en:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "habilidades de altos ingresos",
+                    "placeholder": "Enter the topic for listicle ideas",
+                    "required": true
+                }
+            ],
+            "output": "1. 10 habilidades de altos ingresos que todos deberían aprender\r\n2. Cómo aumentar tus ingresos con estas 10 habilidades esenciales\r\n3. Diez habilidades secretas de los ricos que necesitas para tener éxito\r\n4. Si quieres ganar más dinero, aprende estas 10 habilidades\r\n5. 10 habilidades para mejorar tus ingresos y alcanzar el éxito"
+        }
+    ]
+}

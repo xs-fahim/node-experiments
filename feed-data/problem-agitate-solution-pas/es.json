@@ -1,0 +1,91 @@
+{
+    "title": "Problem, Agitate, Solution (PAS)",
+    "templateSlug": "problem-agitate-solution-pas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 133,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Cadbury Dairy Milk Silk",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Cadbury Dairy Milk Silk se trata de regalar la riqueza y cremosidad del chocolate. El sabor clásico de los chocolates Cadbury le ofrece la razón para celebrar cada pequeña y gran ocasión de felicidad. En definitiva, deléitate con una celebración rica, suave y cremosa.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problema: Te encanta el chocolate, pero sabes que no es bueno para ti.\r\nAgitación: quieres darte un capricho, pero no quieres sentirte culpable por ser demasiado caro\r\nSolución: ¡Con Cadbury Dairy Milk Silk, puede disfrutar del sabor premium del chocolate sin gastar una fortuna en él!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "WP Ultimate Review",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "¡Hacer el puente entre las empresas y sus clientes conectando a ambas partes nunca ha sido tan fácil! WP Ultimate Review, con sus más de 10,000 instalaciones activas, permite a los sitios de WordPress aprovechar al máximo las revisiones y calificaciones, sin afectar la velocidad del sitio. La integración sin esfuerzo, los múltiples estilos de calificación y la flexibilidad hacen que este complemento se destaque como la solución de revisión más completa para WordPress con las características más avanzadas y únicas.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problema: Distinguir su sitio web del resto es difícil, especialmente con tantos competidores.\r\nAgitación: Tienes que causar una buena primera impresión y las reseñas son una excelente manera de hacerlo. Sin embargo, ¡no desea ralentizar su sitio web solo para recopilar esas reseñas!\r\nSolución: WP Ultimate Review es el primer complemento de este tipo con un sistema de revisión avanzado que no afecta la velocidad del sitio. ¡Esto le permite obtener reseñas y mantener su sitio funcionando sin problemas!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dark Temptation by Axe",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Dark Temptation de Axe es una fragancia de la familia olfativa Amber Fougere para Hombres. Dark Temptation se lanzó en 2013. La Nariz detrás de esta fragrancia es Ann Gottlieb. Las Notas de Salida son cereza, pera, jengibre y cilantro; las Notas de Corazón son Pimiento Rojo, Salvia y Albahaca; las Notas de Fondo son Chocolate Negro, Vainilla, Crema Batida, Ámbar y Pachulí.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problema: Es difícil encontrar una fragancia que huela bien y dure mucho tiempo.\r\nAgitación: Encontrar la fragancia adecuada puede ser difícil, especialmente con tantas opciones.\r\nSolución: ¡Axe's Dark Temptation es una fragancia que permanece contigo todo el día y le da a tu cuerpo un olor tentador!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Airbnb",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Airbnb es un mercado en línea que conecta a las personas que desean alquilar sus casas con personas que buscan alojamiento en lugares específicos.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Problema: encontrar un lugar para quedarse cuando viaja puede ser difícil y estresante.\r\nAgitación: no desea pasar horas desplazándose por los listados, tratando de encontrar el lugar perfecto.\r\nSolución: Airbnb ofrece una amplia variedad de alojamientos, desde pequeños apartamentos hasta casas en los árboles en el bosque. ¡Puede buscar por precio, ubicación o incluso por la experiencia exacta que está buscando!"
+        }
+    ]
+}

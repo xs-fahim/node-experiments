@@ -1,0 +1,24 @@
+{
+    "title": "Next Paragraph",
+    "templateSlug": "next-paragraph",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write a follow-up paragraph to:",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "In less than a generation, social media has evolved from direct electronic information exchange, to virtual gathering place, to retail platform, to vital 21st-century marketing tool.",
+                    "placeholder": "Enter the paragraph to be followed-up",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

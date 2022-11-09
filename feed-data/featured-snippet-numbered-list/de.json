@@ -1,0 +1,24 @@
+{
+    "title": "Featured Snippet (Numbered List)",
+    "templateSlug": "featured-snippet-numbered-list",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 196,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Erstellen Sie eine Liste mit Schritten, die Folgendes erklärt:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "wie man sich um eine katze kümmert",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "\r\n1. Füttern Sie Ihre Katze mit guter Katzenfutter mindestens zweimal am Tag.\r\n\r\n2. Lassen Sie Ihre Katze jeden Tag für etwa 30 Minuten spielen und herumlaufen, damit sie ausreichend Bewegung bekommt.\r\n\r\n3. Reinigen Sie das Katzenklo jeden Tag, damit es sauber und hygienisch bleibt.\r\n\r\n4. Streicheln und kraulen Sie Ihre Katze regelmäßig, damit sie sich geliebt fühlt.\r\n\r\n5. Bringen Sie Ihre Katze zum Tierarzt, wenn sie krank oder verletzt ist.\r\n"
+        }
+    ]
+}

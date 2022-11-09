@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Answer",
+    "templateSlug": "paragraph-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Answer this question in detail:",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Which country is going to be the next super power of the world?",
+                    "placeholder": "Enter the question for a detailed answer",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Next sentence",
+    "templateSlug": "next-sentence",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write a follow-up sentence to",
+            "input": [
+                {
+                    "label": "Sentence",
+                    "name": "sentence",
+                    "sample": "It was a cold winter night, perfect for Vlad the vampire to go out hunting for his next prey.",
+                    "placeholder": "Enter the sentence to be followed-up",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

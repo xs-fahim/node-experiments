@@ -1,0 +1,24 @@
+{
+    "title": "Next Paragraph",
+    "templateSlug": "next-paragraph",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 100,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "escribe un párrafo que continúe después de este: ",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "La mejor forma de evitar las arrugas y aprovechar al máximo el espacio es utilizar el método del rollo. Coloque la parte superior boca abajo, doble las mangas y enrolle de abajo hacia arriba. Para los pantalones, junta las piernas y enróllalas de cintura para abajo. Una vez que hayas enrollado todo, coloca los pantalones y las blusas en tu maleta antes que los zapatos y los accesorios; luego, coloque otros artículos con formas extrañas, como herramientas para el cabello.",
+                    "placeholder": "Enter the paragraph to be followed-up",
+                    "required": true
+                }
+            ],
+            "output": "El método del rollo es ideal para viajes de negocios o de fin de semana, ya que permite que la ropa se mantenga en buen estado y ahorra espacio. Si planeas usar la misma ropa para eventos diferentes durante el viaje, asegúrate de colocarla en una bolsa de plástico para que no se arrugue."
+        }
+    ]
+}

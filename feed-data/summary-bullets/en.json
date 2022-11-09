@@ -1,0 +1,24 @@
+{
+    "title": "Summary Bullets",
+    "templateSlug": "summary-bullets",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generate a short list of summary for this paragraph:",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "The Greek gods were all born from the union between a god and a mortal woman. Zeus was born from the union between his father, Kronos, and his mother, Rhea. Athena was born from the union of Zeus with Metis, or wisdom. Apollo was born from the union with Leto or Artemis. Poseidon was born from the union his father, Uranus, and Gaia, or Earth. Demeter was born from the union her husband, Persephone, and Kore, or Spring.",
+                    "placeholder": "Enter the paragraph for summarized list",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

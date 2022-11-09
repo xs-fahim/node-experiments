@@ -1,0 +1,24 @@
+{
+    "title": "Summary Bullets",
+    "templateSlug": "summary-bullets",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 103,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Erstellen Sie eine kurze Zusammenfassungsliste für diesen Absatz:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Der Hauptvorteil der Arbeit von zu Hause aus ist, dass Sie nicht zur Arbeit fahren müssen, was Geld spart. Manchmal fühlst du dich jedoch vielleicht einsam, besonders wenn du gerade erst anfängst. Außerdem sollten Sie vorsichtig sein, was Sie zu Hause tun, da Ihr Arbeitgeber dies herausfinden könnte. Auf der anderen Seite können Sie bis zu 50 % Ihrer Reisekosten einsparen und auch Büromaterial sparen.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "-Arbeiten von zu Hause aus spart Geld für die Anfahrt\r\n-Es kann einsam sein, wenn man gerade erst anfängt\r\n-Man muss vorsichtig sein, was man zu Hause tut, da der Arbeitgeber das herausfinden könnte\r\n-Man kann bis zu 50 % der Reisekosten sparen"
+        }
+    ]
+}

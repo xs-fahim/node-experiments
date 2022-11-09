@@ -1,0 +1,24 @@
+{
+    "title": "Summary Bullets",
+    "templateSlug": "summary-bullets",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 71,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere una breve lista de resumen para este párrafo: ",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "La principal ventaja de trabajar desde casa es que no necesita viajar al trabajo, lo que ahorra dinero. Sin embargo, es posible que a veces te sientas solo, especialmente cuando estás comenzando. Además, debe tener cuidado con lo que hace en casa porque su empleador podría enterarse. Por otro lado, puede ahorrar hasta un 50% de sus costos de desplazamiento y también puede ahorrar en suministros de oficina.",
+                    "placeholder": "Enter the paragraph for summarized list",
+                    "required": true
+                }
+            ],
+            "output": "-Trabajar desde casa ahorra dinero en transporte.\r\n-Puede costar menos en suministros de oficina.\r\n-A veces puede sentirse solo.\r\n-Debe ser cuidadoso con lo que hace en casa."
+        }
+    ]
+}

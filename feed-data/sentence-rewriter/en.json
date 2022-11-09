@@ -1,0 +1,24 @@
+{
+    "title": "Sentence Rewriter",
+    "templateSlug": "sentence-rewriter",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 13,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generate a variation of this sentence:",
+            "input": [
+                {
+                    "label": "Sentence to Rewrite",
+                    "name": "sentenceToRewrite",
+                    "sample": "When we talk about a particular topic, clarity is very important.",
+                    "placeholder": "Enter your sentence to get a rewritten version",
+                    "required": true
+                }
+            ],
+            "output": "It's essential to be clear when we discuss a particular topic."
+        }
+    ]
+}

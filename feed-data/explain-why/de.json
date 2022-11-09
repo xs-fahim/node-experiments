@@ -1,0 +1,91 @@
+{
+    "title": "Explain Why",
+    "templateSlug": "explain-why",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 160,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Warum sind unsere Tränen salzig?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "die wissenschaftlichen Gründe zu erläutern",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Es gibt drei Gründe, warum Tränen salzig sind. Zuallererst fließen die Tränen, die aus den Augen kommen, durch die Nase, und das Salz aus den Tränen hilft, Bakterien aus der Nase zu entfernen. Zweitens, wenn Sie weinen, helfen Tränen, Reizstoffe und Staub von Ihren Augen zu entfernen. Drittens enthalten Tränen eine Chemikalie namens Lysozym, die hilft, Bakterien zu zerstören."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Warum sind die Kardashians berühmt?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "Beschreiben Sie die Gründe für den lächerlich übermäßigen Ruhm, den die Familie Kardashian hat",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": true
+                }
+            ],
+            "output": "Es gibt keine eindeutige Antwort auf diese Frage, da der Ruhm der Kardashian stark variiert, je nachdem, wer gefragt wird. Einige der Gründe, die ihren lächerlichen und übermäßigen Ruhm erklären, sind jedoch: ihr gefiltertes Sex-Tape, ihre Reality-Show und ihre engen Beziehungen zu anderen Prominenten. Darüber hinaus sind sie Lehrer der Selbstdarstellung und wissen, wie man in der Öffentlichkeit bleibt."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Warum können wir nicht auf dem Mars leben?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "Sagen Sie mir die Gründe, warum der Mars nicht bewohnbar ist",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Es gibt mehrere Gründe, warum der Mars nicht bewohnbar ist. Das Wichtigste ist, dass die Marsatmosphäre sehr dünn ist und nicht genug Sauerstoff enthält, um Leben zu ermöglichen. Darüber hinaus ist die Temperatur auf dem Mars zu kalt für Menschen, um bequem zu leben, und der Planet erhält ständig die harte Strahlung der Sonne. Schließlich ist die Marsoberfläche mit Staub und Steinen bedeckt, die den Menschen das Leben schwer machen würden."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Warum ist der Himmel blau?",
+                    "placeholder": "Enter a WH-type question that you need explained",
+                    "required": true
+                },
+                {
+                    "label": "Context",
+                    "name": "context",
+                    "sample": "Die Gründe für die Farbe des Himmels",
+                    "placeholder": "You can give additional instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "Die Gründe für die Farbe des Himmels hängen von den Partikeln in der Atmosphäre ab, die das Sonnenlicht reflektieren.\r\n\r\nDie meisten Teilchen in der Erdatmosphäre sind klein genug, um Licht in alle Richtungen zu streuen. Das bedeutet, dass wir einen blauen Himmel sehen, da Blau das Lichts ist, welches am wenigsten gestreut wird. Indem sich Staub und andere große Teilchen vor die Sonne"
+        }
+    ]
+}

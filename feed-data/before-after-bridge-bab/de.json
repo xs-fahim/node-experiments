@@ -1,0 +1,91 @@
+{
+    "title": "Before After Bridge (BAB)",
+    "templateSlug": "before-after-bridge-bab",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 239,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Hootsuite",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Hootsuite es una herramienta de gestión de redes sociales con características para ayudar con la planificación, programación y sindicación de publicaciones sociales. Las características clave incluyen programación automática, monitoreo de redes sociales, informes de rendimiento, gestión de tareas básicas y más.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Antes: Estás cansado de programar tus publicaciones en las redes sociales una por una. Quieres una herramienta que te ayude a planificar y programar todo el contenido de tus redes sociales por adelantado, para que puedas centrarte en otras cosas.\r\n\r\nDespués: Imagina tener una herramienta que te permita gestionar múltiples redes sociales desde un solo lugar, incluyendo Facebook, Twitter, LinkedIn y más. Con las potentes herramientas de análisis de Hootsuite, sabrás exactamente lo que está funcionando para tu negocio -y lo que no- para que puedas tomar las decisiones correctas para hacer crecer tu audiencia.\r\n\r\nPuente: Empieza hoy mismo con Hootsuite para tomar el control de tu presencia en las redes sociales en múltiples plataformas"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Metform",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "¡Cree cualquier formulario de contacto, formulario de comentarios, formulario de suscripción o cualquier otro tipo de formulario para su sitio de WordPress en minutos con MetForm! Con más de 100,000 instalaciones activas, este elegante complemento de creación de formularios incluye características y plantillas premium para crear cualquier tipo de formulario que desee.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Antes: quería crear un formulario de contacto para su sitio web, pero no sabe cómo codificar y no está seguro de dónde comenzar.\r\n\r\nDespués: Crear un formulario de contacto para su sitio web ahora es fácil y rápido con Metform. Solo tiene que elegir una de nuestras muchas plantillas, personalizarla para que se ajuste a sus necesidades y publicarla en su lugar. No es necesario codificar por sí mismo.\r\n\r\nPuente: con Metform, crear cualquier tipo de forma para su sitio de WordPress es simple y rápido. Nuestro elegante generador de formularios incluye características y plantillas premium para ayudarlo a crear cualquier tipo de formulario que necesite."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Cadbury Dairy Milk Silk",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": " Cadbury Dairy Milk Silk se trata de regalar la riqueza y cremosidad del chocolate. El sabor clásico de los chocolates Cadbury le ofrece la razón para celebrar cada pequeña y gran ocasión de felicidad. En definitiva, deléitate con una celebración rica, suave y cremosa.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Antes: Estás cansado de comer la misma barra de chocolate de siempre. Quieres probar algo nuevo, pero no sabes por dónde empezar.\r\n\r\nDespués: Imagine un chocolate tan suave y cremoso que se derrita en su boca como la seda. Un chocolate con un sabor tan rico y placentero que nunca más querrá otra cosa.\r\n\r\nPuente: Cadbury Dairy Milk Silk es el regalo de un chocolate rico y cremoso. El sabor clásico de los chocolates Cadbury te da la razón para celebrar cada pequeña y gran ocasión de felicidad. En resumen, ¡regálate una celebración rica, suave y cremosa!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Realme Narzo 50A",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Equipado con un procesador de juegos Helio G85, el realme Narzo 50A es un teléfono inteligente de alta velocidad que le permite jugar juegos intensos y ver programas favoritos. Este teléfono inteligente cuenta con una batería de 6000 mAh y una carga rápida de 18W para un rendimiento ininterrumpido, y una cámara triple AI de 50 MP para hacer clic en hermosas fotos.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Antes: estás cansado de jugar en tu viejo teléfono retrasado y congelado todo el tiempo. Quieres jugar juegos intensos, pero no tienes un teléfono inteligente lo suficientemente bueno para ello.\r\n\r\nEntonces: imagine tener un teléfono inteligente de juegos de alta velocidad con una batería de carga rápida que le permite disfrutar de sesiones de juegos ininterrumpidas. Esto significa más divertido cuando juegas tus juegos móviles favoritos\r\n\r\nPuente: El Realme Narzo 50A está equipado con el procesador Helio G85, 6GB, RAM y 128 GB de espacio de almacenamiento para que pueda jugar juegos móviles intensivos sin problemas de retraso o congelación. ¡También tiene una cámara triple (Sensor de profundidad Ultra -AngleG de 50MP de 50MP + 8MP) que captura fotos impresionantes que no creerá que fuera posible!"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "title": "Bullet Point to Answers",
+    "templateSlug": "bullet-point-to-answers",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 74,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Qué es la depreciación en economía?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "definir el término en detalle y múltiples viñetas",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Proceso por el cual un activo pierde valor con el tiempo debido al desgaste.\r\n\r\n- Método contable utilizado para calcular el coste de adquisición de activos.\r\n\r\n- La cantidad que cuesta un artículo menos de lo que se vende en el mercado abierto."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Cómo hacer una taza de té?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "describir cómo preparar una taza de té paso a paso",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Utiliza agua hirviendo en una taza.\r\n\r\n- Añade leche y azúcar si lo quieres endulzado.\r\n\r\n- Pon un poco de zumo de limón por encima y remueve.\r\n\r\n- También puedes añadir miel en lugar de azúcar."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "¿Cuáles son los síntomas de la neumonía?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "generar la lista de síntomas comunes de la neumonía en una lista con viñetas",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Tos con mucosidad de color amarillo.\r\n\r\n- Fiebre.\r\n\r\n- Dificultad para respirar.\r\n\r\n- Dolor en el pecho."
+        }
+    ]
+}

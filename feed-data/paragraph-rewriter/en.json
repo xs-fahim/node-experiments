@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Rewriter",
+    "templateSlug": "paragraph-rewriter",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Rewrite this:",
+            "input": [
+                {
+                    "label": "Paragraph",
+                    "name": "paragraph",
+                    "sample": "Most of the people of our country are farmers, workers, and day laborers who live below the poverty line. But the price of essential commodities is soaring higher and higher. It has now become impossible for them to make both ends meet. It has severely hit the day laborers, the lower and middle-class families, and the salaried class too. The prices of rice, vegetables, clothes, mustard oil, medicine, and other essential commodities are also increasing by leaps and bounds.",
+                    "placeholder": "Enter the paragraph to be rewritten",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

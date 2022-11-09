@@ -1,0 +1,91 @@
+{
+    "title": "WooCommerce Product Short Description",
+    "templateSlug": "woocommerce-product-short-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 161,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Garantia Stone 2 in1 Water Tank",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "tanque de agua, 2 en 1, cosecha de agua de lluvia, colilla de agua, taza de maceta en la parte superior, hilo integrado",
+                    "placeholder": "Specify which keywords should the product short description be based on",
+                    "required": false
+                }
+            ],
+            "output": "¿Busca un depósito de agua que pueda hacerlo todo? No busque más que el depósito de agua 2 en 1 de Garantia Stone. Este depósito de recogida de agua de lluvia es perfecto para aquellos que quieren mantener sus plantas sanas e hidratadas. También se puede utilizar como un tanque de agua regular, por lo que es perfecto para aquellos que quieren mantener su hogar bien abastecido de H2O. ¿Y lo mejor? El Depósito de Agua Garantia Stone 2 en 1 viene con una taza de maceta incorporada, lo que facilita su llenado y transporte. ¿A qué espera? Consiga el depósito de agua Garantia Stone 2 in1 hoy mismo."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Samadara",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product short description be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductShortDescriptionBeBasedOn",
+                    "sample": "sodashi, antienvejecimiento, líneas finas suaves y arrugas",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "Samadara es un suero mágico antienvejecimiento que garantiza el alisamiento de las líneas de expresión y las arrugas. Está elaborado con sodashi, un potente ingrediente antienvejecimiento que actúa para rejuvenecer y renovar su piel. Samadara también contiene otros ingredientes beneficiosos, como el ácido hialurónico, que ayudan a rellenar e hidratar la piel. Este suero es fácil de aplicar y dejará su piel suave y tersa."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Organic Catnip Bow Tie Toy",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product short description be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductShortDescriptionBeBasedOn",
+                    "sample": "juguete relleno de hierba gatera, hecho a mano en Cornualles, relleno reciclado",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "Este juguete con pajarita de hierba gatera es la forma perfecta de mostrarle a tu gatito algo de amor. Hecho con hierba gatera orgánica, seguro que hará que tu felino se sienta feliz y cómodo. Además, está hecho a mano en Cornualles con relleno reciclado, por lo que también es ecológico."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Robyn the Octopus knitting kit",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Specify which keywords should the product short description be based on",
+                    "name": "specifyWhichKeywordsShouldTheProductShortDescriptionBeBasedOn",
+                    "sample": "táctil, tentáculos diminutos, molino local de Yorkshire, suave, 50% merino y 50% acrílico, lavable a máquina",
+                    "placeholder": "Keywords",
+                    "required": false
+                }
+            ],
+            "output": "El pulpo Robyn es el kit de punto perfecto para cualquiera que quiera aprender a tejer. Este kit viene con todo lo necesario para empezar, incluyendo un hilo suave, 50% merino y 50% acrílico, que se puede lavar a máquina. El kit también incluye un molino local de Yorkshire, por lo que es perfecto para cualquiera que quiera apoyar el negocio local. Por último, el kit viene con pequeños tentáculos que seguro que proporcionan una experiencia divertida y táctil."
+        }
+    ]
+}

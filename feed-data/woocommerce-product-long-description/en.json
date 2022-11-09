@@ -1,0 +1,31 @@
+{
+    "title": "WooCommerce Product Long Description",
+    "templateSlug": "woocommerce-product-long-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 135,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write a lengthy eCommerce product description of no less than 150 tokens for ",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "JBL C100SI",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Keywords",
+                    "name": "keywords",
+                    "sample": "in-ear headphones, JBL pure bass, one-button remote, angled buds, black, comfort fit, suitable for punchy bass and rock music, 30-day replacement warranty, worldwide free shipping",
+                    "placeholder": "Specify the keywords/key phrases for the product long description",
+                    "required": true
+                }
+            ],
+            "output": "Looking for headphones that will let you enjoy your music to the fullest? Check out the JBL C100SI! These in-ear headphones are designed to provide JBL pure bass, so you can enjoy punchy bass and rock music the way it was meant to be heard. The one-button remote lets you control your music with ease, and the angled buds provide comfort and a fit that won't let you down. Plus, the black color looks great with any outfit. If you're not satisfied with the C100SI, JBL offers a 30-day replacement warranty. And with worldwide free shipping, you can get your new headphones delivered right to your door."
+        }
+    ]
+}

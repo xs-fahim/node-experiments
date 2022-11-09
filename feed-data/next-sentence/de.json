@@ -1,0 +1,24 @@
+{
+    "title": "Next sentence",
+    "templateSlug": "next-sentence",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 39,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Schreiben Sie einen Folgesatz zu:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Es war einmal, in einer weit entfernten Galaxie, lebte eine Bande glücklicher Monster und ein zerbrechliches menschliches Kind, das von ihnen entführt wurde.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Die Bande glücklicher Monster nahm das zerbrechliche menschliche Kind mit in ihr Heim und zog es groß."
+        }
+    ]
+}

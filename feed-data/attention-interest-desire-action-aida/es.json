@@ -1,0 +1,91 @@
+{
+    "title": "Attention Interest Desire Action (AIDA)",
+    "templateSlug": "attention-interest-desire-action-aida",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 214,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Tumblr",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Tumblr es un sitio de microblogging y redes sociales que permite a los usuarios crear un diario o blog en línea. Los usuarios pueden seguir sus intereses favoritos, otros Tumblrs y personas influyentes de la marca para compartir contenido hacia y desde. Puede \"rebloguear\" publicaciones, fotos o videos que le gusten y compartirlos en su blog para que sus seguidores los vean. Tumblr fue relativamente popular entre los preadolescentes y adolescentes en su apogeo, alrededor de 2013.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Atención:  ¿Quieres expresarte?\r\nInterés: Tumblr es un lugar donde puedes compartir tus pensamientos, sentimientos y creatividad con el mundo. También es un gran lugar para encontrar nuevos intereses, conectar con otras personas y marcas que te interesan.\r\nDeseo: Nunca más tendrás que preocuparte por quedarte sin cosas de las que hablar cuando tengas un blog en Tumblr. ¡Encuentra tu voz empezando tu blog hoy mismo!\r\nAcción: Haz clic aquí para empezar a bloguear con Tumblr hoy mismo."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Polylang",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Polylang es un plugin freemium para crear un sitio web de WordPress bilingüe o multilingüe. Es posible añadir un número ilimitado de idiomas y traducir los contenidos de su sitio (artículos, páginas, categorías, etiquetas, widgets, menús, tipos de publicaciones personalizadas, taxonomías, URL, etc.) ya sea manualmente o con un completo sistema de gestión de traducciones.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Atención: ¿Quieres hacer crecer tu negocio a nivel internacional?\r\nInterés: Polylang es el plugin de WordPress que te ayudará a lograrlo. Con nuestro sistema de gestión de traducciones, podrá traducir su sitio web a cualquier idioma que necesite. Es fácil y rentable de usar.\r\nDeseo: Nuestro plugin te ayudará a llegar a un público más amplio y aumentar tu presencia en línea, haciendo que sea más fácil para las personas encontrar tu contenido en su idioma nativo. Tenemos millones de usuarios en todo el mundo que ya utilizan nuestro plugin.\r\nAcción: Haga clic aquí para obtener más información sobre cómo Polylang puede ayudar a crecer y expandir su negocio a nivel mundial."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Gillette MACH3",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Las tres cuchillas del Gillette MACH3 Turbo están tratadas con un recubrimiento antifricción avanzado, lo que permite que el MACH3 Turbo elimine cada vello con menos sensación de irritación. Las micro aletas suaves y protectoras suavizan suavemente la piel, lo que permite que el MACH3 Turbo se afeite de manera uniforme y sin esfuerzo. La tira de lubricación indicadora ayuda a garantizar que su cuchilla de afeitar MACH3 Turbo siga deslizándose por su piel, afeitando después del afeitado.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Atención: ¿Quieres un afeitado más suave y con menos irritación?\r\nInterés: La Gillette MACH3 Turbo es la maquinilla de afeitar perfecta para ti. Tiene tres hojas tratadas con un recubrimiento antifricción avanzado, microaletas suaves y protectoras, y una banda lubricante indicadora que ayuda a deslizarse a través de la piel.\r\nDeseo: ¡Esta maquinilla de afeitar premium te proporcionará los mejores afeitados de tu vida! Podrás ver y sentir la diferencia en un solo uso. ¿No crees que es hora de que te afeites más suave y sin irritación?\r\nAcción: Entonces, ¡haga clic aquí y comience con MACH3 ahora!"
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Hootsuite",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product description",
+                    "name": "productDescription",
+                    "sample": "Hootsuite es una herramienta de gestión de redes sociales con características para ayudar con la planificación, programación y sindicación de publicaciones sociales. Las características clave incluyen programación automática, monitoreo de redes sociales, informes de rendimiento, gestión de tareas básicas y más.",
+                    "placeholder": "Enter the product description",
+                    "required": true
+                }
+            ],
+            "output": "Atención: ¿Es tu estrategia de redes sociales un desastre?\r\nInterés: Hootsuite es la herramienta líder de gestión de redes sociales. Puede programar publicaciones, publicar contenido, supervisar el rendimiento y mucho más. Podemos ayudarte a gestionar todas tus redes sociales en un solo lugar.\r\nDeseo: Hootsuite ha sido utilizado por más de 20 millones de profesionales en todo el mundo para planificar, ejecutar y medir sus actividades en las redes sociales. Tenemos todo lo que necesitas para que tu mensaje sea escuchado.\r\nAcción: ¡Haz clic en este enlace para probar Hootsuite ahora!"
+        }
+    ]
+}

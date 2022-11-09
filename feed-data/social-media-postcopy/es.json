@@ -1,0 +1,31 @@
+{
+    "title": "Social Media Post/Copy",
+    "templateSlug": "social-media-postcopy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 77,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "escriba una publicación en las redes sociales de 150 a 200 caracteres para este producto/marca: ",
+            "input": [
+                {
+                    "label": "Product/brand name",
+                    "name": "product/brandName",
+                    "sample": "Gillette MACH3",
+                    "placeholder": "Enter the name of the product/brand",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Las tres cuchillas del Gillette MACH3 Turbo están tratadas con un recubrimiento antifricción avanzado, lo que permite que el MACH3 Turbo elimine cada vello con menos sensación de irritación. Las micro aletas suaves y protectoras suavizan suavemente la piel, lo que permite que el MACH3 Turbo se afeite de manera uniforme y sin esfuerzo. La tira de lubricación indicadora ayuda a garantizar que su cuchilla de afeitar MACH3 Turbo siga deslizándose por su piel, afeitando después del afeitado.",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": false
+                }
+            ],
+            "output": "¡El Gillette MACH3 Turbo es el afeitado perfecto para hombres! Las tres cuchillas están tratadas con un recubrimiento antifricción avanzado para una sensación más suave e hidratada. ¡No te arriesgues con nada menos!"
+        }
+    ]
+}

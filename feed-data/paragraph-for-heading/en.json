@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph for Heading",
+    "templateSlug": "paragraph-for-heading",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write a paragraph-long content for the following heading/title:",
+            "input": [
+                {
+                    "label": "Title/Heading",
+                    "name": "title/heading",
+                    "sample": "French new wave as a film movement",
+                    "placeholder": "Enter the title/heading",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

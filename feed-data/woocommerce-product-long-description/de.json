@@ -1,0 +1,24 @@
+{
+    "title": "WooCommerce Product Long Description",
+    "templateSlug": "woocommerce-product-long-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 125,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Beschreiben Sie dieses Produkt ausführlich mit den Stichworten auf Deutsch\r\n",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "[Produkt]: Garantia Stone 2-in-1-Wassertank [Stichworte]: Wassertank, 2 in 1, Regenwassernutzung, Regentonne, Topfschale oben, integriertes Gewinde",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Der Garantia Stone 2-in-1-Wassertank ist ein Wassertank, der für die Regenwassernutzung konstruiert wurde. Er besteht aus einer Regentonne und einer Topfschale, die oben an die Regentonne angebracht ist. Die Topfschale hat ein integriertes Gewinde, das es ermöglicht, den Tank an einer Wand oder an einem anderen Gegenstand zu befestigen."
+        }
+    ]
+}

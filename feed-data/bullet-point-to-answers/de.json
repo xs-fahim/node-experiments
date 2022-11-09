@@ -1,0 +1,71 @@
+{
+    "title": "Bullet Point to Answers",
+    "templateSlug": "bullet-point-to-answers",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 86,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Was ist Abschreibung in der Volkswirtschaftslehre?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "Definieren Sie den Begriff im Detail und mehrere Aufzählungspunkte",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Die Differenz zwischen dem Wert eines Vermögenswerts und seinem Anschaffungspreis.\r\n\r\n- Sie entsteht, wenn Sie etwas verkaufen, das bereits abgeschrieben ist.\r\n\r\n- Sie können sie nicht absetzen, wenn Sie bereits das gesamte Geld für den ursprünglichen Kauf aufgebraucht haben."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Wie macht man eine Tasse Tee?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "Beschreiben Sie, wie Sie Schritt für Schritt eine Tasse Tee zubereiten",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Geben Sie 2 Teelöffel losen Blatttee in eine Tasse.\r\n\r\n- Mit kochendem Wasser aufgießen, bis Sie die gewünschte Stärke erreicht haben.\r\n\r\n- Nach Belieben Milch/Sahne einrühren.\r\n\r\n- Sofort trinken."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "Was sind die Symptome einer Lungenentzündung?",
+                    "placeholder": "Enter the question to get an answer in bullet points",
+                    "required": true
+                },
+                {
+                    "label": "Additional Instruction",
+                    "name": "additionalInstruction",
+                    "sample": "Generieren Sie die Liste der häufigsten Symptome einer Lungenentzündung in einer Aufzählung",
+                    "placeholder": "You can give instruction/context for a more accurate output (optional)",
+                    "required": false
+                }
+            ],
+            "output": "- Schwierigkeiten beim Atmen.\r\n\r\n- Abhusten von Schleim.\r\n\r\n- Fieber.\r\n\r\n- Schmerzen in der Brust."
+        }
+    ]
+}

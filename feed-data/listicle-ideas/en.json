@@ -1,0 +1,24 @@
+{
+    "title": "Listicle Ideas",
+    "templateSlug": "listicle-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 49,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write different variations of listicle ideas on",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Enter the topic for listicle ideas",
+                    "placeholder": "preserving food",
+                    "required": true
+                }
+            ],
+            "output": "-10 Ways to Preserve Your Food  \r\n-The Top 10 Ways to Preserve Your Food  \r\n-10 Easy Ways to Preserve Your Food  \r\n-The Best 10 Ways to Preserve Your Food"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Social Media Post/Copy",
+    "templateSlug": "social-media-postcopy",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 116,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Schreiben Sie einen Social-Media-Beitrag von 150 bis 200 Zeichen für dieses Produkt/diese Marke:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Gillette MACH3",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Die drei Klingen des Gillette MACH3 Turbo sind mit einer fortschrittlichen Anti-Reibungs-Beschichtung behandelt, sodass der MACH3 Turbo jedes Haar mit weniger Irritationen entfernen kann. Weiche, schützende Mikrolamellen machen die Haut sanft weich, sodass sich der MACH3 Turbo gleichmäßig und mühelos rasieren kann. Der Indikator-Schmierstreifen hilft sicherzustellen, dass Ihr MACH3 Turbo-Rasierer weiterhin über Ihre Haut gleitet, Rasieren nach dem Rasieren.",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": true
+                }
+            ],
+            "output": "Gillette MACH3 Turbo - die drei Klingen sind mit einer fortschrittlichen Anti-Reibungs-Beschichtung behandelt, sodass der MACH3 Turbo jedes Haar mit weniger Irritationen entfernen kann. Weiche, schützende Mikrolamellen machen die Haut sanft weich, sodass sich der MACH3 Turbo gleichmäßig und mühelos rasieren kann."
+        }
+    ]
+}

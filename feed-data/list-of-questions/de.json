@@ -1,0 +1,24 @@
+{
+    "title": "List of Questions",
+    "templateSlug": "list-of-questions",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 236,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Erstellen Sie eine Liste mit Fragen zu:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Frühstück zu Hause",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "1. Was isst du zum Frühstück?\r\n2. Wo isst du zum Frühstück?\r\n3. Wann isst du zum Frühstück?\r\n4. Welche Gerichte essen Sie zum Frühstück?\r\n5. Was ist Ihre Lieblings-Frühstücksspeise?\r\n6. Wo kaufen Sie die Zutaten für Ihr Frühstück?\r\n7. Wie viel Zeit nimmst du dir für dein Frühstück?\r\n8. Trinkst du etwas zum Frühstück? Wenn ja, was?\r\n9. Ist das Frühstück die wichtigste Mahlzeit des Tages? Warum oder warum nicht?\r\n10. Was machst du, wenn du keine Zeit für ein ausgewogenes Frühstück hast?"
+        }
+    ]
+}

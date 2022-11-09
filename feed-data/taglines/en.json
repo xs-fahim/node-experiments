@@ -1,0 +1,31 @@
+{
+    "title": "Taglines",
+    "templateSlug": "taglines",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 15,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Write a compelling tagline for the following product:",
+            "input": [
+                {
+                    "label": "Product name",
+                    "name": "productName",
+                    "sample": "Dunkin' Donuts",
+                    "placeholder": "Enter the product name",
+                    "required": true
+                },
+                {
+                    "label": "Product brief",
+                    "name": "productBrief",
+                    "sample": "Dunkin’ Donuts is the world’s leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin’ Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, sandwiches & more!",
+                    "placeholder": "Explain briefly the product is, or which features to focus",
+                    "required": false
+                }
+            ],
+            "output": "Dunkin' Donuts: The best way to start your day!"
+        }
+    ]
+}

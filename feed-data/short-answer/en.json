@@ -1,0 +1,24 @@
+{
+    "title": "Short Answer",
+    "templateSlug": "short-answer",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 0,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Answer this question briefly:",
+            "input": [
+                {
+                    "label": "Question",
+                    "name": "question",
+                    "sample": "What is depreciation in accounting?",
+                    "placeholder": "Enter your question",
+                    "required": true
+                }
+            ],
+            "output": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "List of Questions",
+    "templateSlug": "list-of-questions",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 128,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere una lista de preguntas relacionadas con: ",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "desayuno en casa",
+                    "placeholder": "Enter the topic for the list of related questions",
+                    "required": true
+                }
+            ],
+            "output": "1. ¿Qué desayunas habitualmente en casa?\r\n2. ¿Te gusta preparar desayunos o prefieres comprarlos?\r\n3. ¿Cuál es tu desayuno favorito?\r\n4. ¿A qué hora sueles desayunar en casa?\r\n5. ¿Cómo sueles organizarte para preparar el desayuno?\r\n6. ¿Qué te parece el desayuno como primera comida del día?"
+        }
+    ]
+}

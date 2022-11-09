@@ -1,0 +1,24 @@
+{
+    "title": "Title Ideas",
+    "templateSlug": "title-ideas",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 155,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere diferentes variaciones de títulos de publicaciones de blog para este tema: ",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Tendencia de la moda rápida",
+                    "placeholder": "Enter your desired topic for title generation",
+                    "required": true
+                }
+            ],
+            "output": "1. \"¿Qué es la moda rápida y cómo está cambiando el mercado de la moda?\"\r\n2. \"La moda rápida: ¿qué es y por qué está en auge?\"\r\n3. \"Los pros y contras de la moda rápida: ¿es realmente lo que necesitamos?\"\r\n4. \"La moda rápida está cambiando la forma en que consumimos la moda\"\r\n5. \"La moda rápida: una amenaza para la calidad y la ética en la moda?\""
+        }
+    ]
+}

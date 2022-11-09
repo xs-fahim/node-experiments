@@ -1,0 +1,24 @@
+{
+    "title": "Paragraph Rewriter",
+    "templateSlug": "paragraph-rewriter",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 127,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Generieren Sie eine Variation dieses Satzes:",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "Bewegung ist ein natürlicher Teil unseres Lebens, kann aber auch andere Aktivitäten wie Gartenarbeit oder Einkaufen umfassen. Geselligkeit, während man etwas körperlich tut, kann für manche Menschen selbstverständlich sein, während gruppierte künstliche Aktivitäten wie „Bewegung“ nicht so ansprechend klingen. ",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Bewegung ist ein natürlicher Teil unseres Lebens und kann sowohl körperliche als auch geistige Aktivitäten umfassen. Geselligkeit während man sich bewegt, kann für manche Menschen selbstverständlich sein, während gruppierte künstliche Aktivitäten wie „Bewegung“ für andere nicht so ansprechend klingen."
+        }
+    ]
+}

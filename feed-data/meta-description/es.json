@@ -1,0 +1,71 @@
+{
+    "title": "Meta Description",
+    "templateSlug": "meta-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 64,
+    "feedMode": "multishot",
+    "numberOfFeedData": 5,
+    "data": [
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "¿Cómo perder grasa abdominal en casa?",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "perder grasa del vientre en casa",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": false
+                }
+            ],
+            "output": "Puede perder grasa abdominal en casa y evitar la frustración y la vergüenza de los programas de pérdida de peso que no funcionan. Siga este blog para obtener una guía detallada."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "Los mejores proveedores de alojamiento web para WordPress",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "proveedores de alojamiento web para WordPress",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": false
+                }
+            ],
+            "output": "¿Busca el mejor proveedor de alojamiento web para su sitio web de WordPress? Compare características, precios y confiabilidad entre nuestros principales proveedores de alojamiento web."
+        },
+        {
+            "instruct": "",
+            "input": [
+                {
+                    "label": "Blog Post Title",
+                    "name": "blogPostTitle",
+                    "sample": "Cómo mejorar su puntaje de crédito",
+                    "placeholder": "Enter the blog post title here",
+                    "required": true
+                },
+                {
+                    "label": "Focus Keyword",
+                    "name": "focusKeyword",
+                    "sample": "mejorar el puntaje de crédito",
+                    "placeholder": "Enter the focus keyword/keyphrase for this meta description",
+                    "required": false
+                }
+            ],
+            "output": "Independientemente de cómo sea su puntaje de crédito, usted quiere que sea mejor. Este artículo lo ayudará a aprender sobre los factores que afectan su puntaje de crédito y cómo mejorarlo."
+        }
+    ]
+}

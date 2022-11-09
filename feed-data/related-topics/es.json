@@ -1,0 +1,24 @@
+{
+    "title": "Related Topics",
+    "templateSlug": "related-topics",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 26,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Genere una lista de temas relacionados con este párrafo: ",
+            "input": [
+                {
+                    "label": "Content",
+                    "name": "content",
+                    "sample": "Comer pescado crudo no parecía una buena idea. \"Es un manjar en Japón\", no parecía hacerlo más apetecible. El pescado crudo es pescado crudo, manjar o no.",
+                    "placeholder": "Enter a paragraph/snippet of content",
+                    "required": true
+                }
+            ],
+            "output": "pescado crudo, comida japonesa, sushi, sashimi, pesca, mariscos"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Product Description",
+    "templateSlug": "product-description",
+    "categories": {},
+    "modelType": "high",
+    "averageMaxTokens": 138,
+    "feedMode": "instruct",
+    "numberOfFeedData": 0,
+    "data": [
+        {
+            "instruct": "Beschreiben Sie folgendes Produkt kreativ auf Deutsch:\r\n",
+            "input": [
+                {
+                    "label": "Topic",
+                    "name": "topic",
+                    "sample": "[Produkt]: Jhakanaka [Produktbeschreibung]: Jhakanaka. Musikspieler. Ein Produkt von XpeedStudio. Spielt alle Musik und Podcasts. Speech-to-Text-Technologie für Texte für Musik und Untertitel für Podcasts. Zielgruppe: Jugendliche und junge Erwachsene. Hörbuchfunktion kommt.",
+                    "placeholder": "Enter the topic for the definition",
+                    "required": true
+                }
+            ],
+            "output": "Jhakanaka ist ein Musikspieler, der von XpeedStudio entwickelt wurde. Er kann alle Musik- und Podcastformate abspielen und verfügt über eine Speech-to-Text-Technologie, die Texte für Musik und Untertitel für Podcasts ermöglicht. Jhakanaka ist vor allem für Jugendliche und junge Erwachsene geeignet und wird in Zukunft auch eine Hörbuchfunktion bieten."
+        }
+    ]
+}
