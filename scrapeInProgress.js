@@ -28,9 +28,11 @@ function sleep(ms) {
     //   propertyJsHandles.map(handle => handle.jsonValue())
     let taskReport = {}
     for await (const projectName of projects) {
-        page = await browser.newPage();
+        page = await browser.newPage()
         await page.goto(`https://gitscrum.com/xpeedstudio/${projectName}`, { waitUntil: 'load', timeout: 0 });
         await page.waitForSelector('div[data-title="In Progress"]')
+        await page.waitForSelector('div.aside-projects')
+
         const tasks = await page.$$eval('div[data-title="In Progress"] [data-task]', el => el.map(x => x.getAttribute("data-task")));
         taskReport[projectName] = {
             "in-progress": {}
@@ -42,28 +44,15 @@ function sleep(ms) {
             let taskName = await page.evaluate(key => key.textContent, await page.$(`[data-task='${taskId}'] a`))
             taskReport[projectName]["in-progress"][taskId] = {
                 'task-title': taskName,
-                'task-assigned-members': assignedMember,
+                'task-assigned-members': assignedMember
             }
         }
-        page.close()
+//        await page.goto(`https://gitscrum.com/xpeedstudio/${projectName}/sprints`, { waitUntil: 'load', timeout: 0 });
+    // page.close()
+
     }
     // );
     console.log(JSON.stringify(taskReport));
 
-    // // Wait for the results page to load and display the results.
-    // const resultsSelector = '.gsc-results .gs-title';
-    // await page.waitForSelector(resultsSelector);
-
-    // // Extract the results from the page.
-    // const links = await page.evaluate(resultsSelector => {
-    //   return [...document.querySelectorAll(resultsSelector)].map(anchor => {
-    //     const title = anchor.textContent.split('|')[0].trim();
-    //     return `${title} - ${anchor.href}`;
-    //   });
-    // }, resultsSelector);
-
-    // // Print all the files.
-    // console.log(links.join('\n'));
-
-    await browser.close();
+    // await browser.close();
 })();
