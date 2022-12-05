@@ -1,3 +1,4 @@
+import moment from 'moment';
 import puppeteer from 'puppeteer';
 
 function sleep(ms) {
@@ -47,12 +48,21 @@ function sleep(ms) {
                 'task-assigned-members': assignedMember
             }
         }
-//        await page.goto(`https://gitscrum.com/xpeedstudio/${projectName}/sprints`, { waitUntil: 'load', timeout: 0 });
-    // page.close()
+        await page.goto(`https://gitscrum.com/xpeedstudio/${projectName}/time-tracking`, { waitUntil: 'load', timeout: 0 });
+        await page.waitForSelector('div.task-dates')
+        await page.click('div.task-dates button')
+        await page.waitForSelector('.el-date-editor--daterange')
+        await page.click('.el-date-editor--daterange .el-icon-date')
+        await page.waitForSelector('.el-date-range-picker')
+        const date = moment().subtract(1, 'days').format('YYYY-MM-DD')
+        await page.type('.el-date-range-picker', date);
+        await page.waitForSelector('.dialog-footer')
+        // await page.click('.dialog-footer button.el-button--primary');
 
+        // page.close()
     }
     // );
-    console.log(JSON.stringify(taskReport));
+    // console.log(JSON.stringify(taskReport))
 
     // await browser.close();
 })();
