@@ -4,13 +4,15 @@ import express from 'express';
 import path from 'path';
 import cors from 'cors';
 import dotenv from 'dotenv'; 
+import fetch from 'node-fetch';
 const __dirname = path.resolve(path.dirname(''));
 
 dotenv.config()
 // Constants
 const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
-
+const DOMAIN = 'https://api.astria.ai';
+const API_KEY = process.env.API_KEY;
 
 const app = express();
 app.use(express.json());
@@ -32,9 +34,66 @@ app.get('/pool', async (req, res) => {
 });
 
 
-app.post('/test1', (req, res) => {
-//   new usageStats(req, res).getLimitUsage();
-})
+app.post('/tune', async (req, res) => {
+  let options = {
+    method: 'POST',
+    headers: { 
+      "Authorization": "Bearer " + API_KEY,
+      "Content-Type": "multipart/form-data",
+    },
+    body: JSON.stringify(req.body),
+    redirect: 'follow'
+  };
+  console.log(req.body)
+
+  res.send(await fetch(DOMAIN + '/tunes', options)
+    .then(response => response.text())
+    .then(result => result)
+    .catch(error => error));
+});
+
+
+// working
+app.get('/tunes', async(req, res) => {
+  let options = {
+    method: 'GET',
+    headers: { "Authorization": "Bearer "+ API_KEY, "Content-Type": "application/json" },
+    redirect: 'follow'
+  };
+
+  res.send(await fetch(DOMAIN + '/tunes', options)
+    .then(response => response.text())
+    .then(result => JSON.parse(result))
+    .catch(error => error));
+});
+
+// working
+app.get('/tunes/:id', async(req, res) => {
+  let options = {
+    method: 'GET',
+    headers: { "Authorization": "Bearer "+ API_KEY, "Content-Type": "application/json" },
+    redirect: 'follow'
+  };
+
+  res.send(await fetch(DOMAIN + `/tunes/${req.params.id}`, options)
+    .then(response => response.text())
+    .then(result => JSON.parse(result))
+    .catch(error => error));
+});
+
+// working
+app.get('/tunes/:id/prompts', async(req, res) => {
+  let options = {
+    method: 'GET',
+    headers: { "Authorization": "Bearer "+ API_KEY, "Content-Type": "application/json" },
+    redirect: 'follow'
+  };
+
+  res.send(await fetch(DOMAIN + `/tunes/291110/prompts/`, options)
+    .then(response => response.text())
+    .then(result => JSON.parse(result))
+    .catch(error => error));
+});
 
 
 console.log(`'HTTP server started' on port ${PORT}`);
