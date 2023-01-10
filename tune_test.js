@@ -7,10 +7,10 @@ const DOMAIN = 'https://api.astria.ai';
 
 (function createTune() {
   let formData = new FormData();
-  formData.append('tune[title]', 'Racing Car');
+  formData.append('tune[title]', 'Fast Car');
   formData.append('tune[branch]', 'fast');
   formData.append('tune[token]', 'zwx');
-  formData.append('tune[name]', 'racecar');
+  formData.append('tune[name]', 'fastcar');
 
   let files = fs.readdirSync('./samples');
   files.forEach(file => {
