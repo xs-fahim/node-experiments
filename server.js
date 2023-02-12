@@ -1,50 +1,57 @@
-'use strict';
+import cluster from "cluster"
+import http from "http"
+import { Server } from "socket.io"
+import {cpus} from "os";
+import { setupMaster, setupWorker } from "@socket.io/sticky"
+import { createAdapter, setupPrimary }from "@socket.io/cluster-adapter"
+// import { emit } from "process";
+let numCPUs = cpus().length
+if (cluster.isPrimary) {
+  console.log(`Master ${process.pid} is running`);
 
-import express from 'express';
-import path from 'path';
-import cors from 'cors';
-import dotenv from 'dotenv'; 
-const __dirname = path.resolve(path.dirname(''));
+  // const httpServer = http.createServer();
 
-dotenv.config()
-// Constants
-const PORT = process.env.PORT || 3000;
-const HOST = '0.0.0.0';
+  // setup sticky sessions
+  // setupMaster(httpServer, {
+  //   loadBalancingMethod: "least-connection",
+  // });
 
+  // setup connections between the workers
+  // setupPrimary();
 
-const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+  // // needed for packets containing buffers (you can ignore it if you only send plaintext objects)
+  // // Node.js < 16.0.0
+  // // cluster.setupPrimary({
+  // //   serialization: "advanced",
+  // // });
+  // // Node.js > 16.0.0
+  // cluster.setupPrimary({
+  //   serialization: "advanced",
+  // });
 
-app.use(cors());
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  next();
-});
+  // httpServer.listen(3000);
 
+  for (let i = 0; i < numCPUs; i++) {
+    cluster.fork();
+  }
 
-app.get('/', async (req, res) => {
-  res.sendFile(__dirname + '/static/index.html');
-});
+  cluster.on("exit", (worker) => {
+    console.log(`Worker ${worker.process.pid} died`);
+    cluster.fork();
+  });
+} else {
+  console.log(`Worker ${process.pid} started`);
 
-app.get('/pool', async (req, res) => {
-  res.status(200).send('OK');
-});
+  const httpServer = http.createServer();
+  const io = new Server(httpServer);
 
+  // use the cluster adapter
+  io.adapter(createAdapter());
 
-app.post('/test1', (req, res) => {
-//   new usageStats(req, res).getLimitUsage();
-})
+  // setup connection with the primary process
+  setupWorker(io);
 
-
-console.log(`'HTTP server started' on port ${PORT}`);
-
-const server = app.listen(+PORT, HOST,()=>{});
-
-function closeGracefully(signal) {
-  server.close(() => {
-    console.log(`'HTTP server closed'`)
-  })
+  io.on("connection", (socket) => {
+    socket.emit("working now")
+  });
 }
-
-process.on('SIGTERM', closeGracefully)
