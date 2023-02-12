@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worker Socket Connection</title>
+  </head>
+  <body>
+        <button id="connect_socket" onclick="connectSocket()" type="submit">
+          connect
+        </button>
+        <br>
+        <br>
+        <textarea cols="50" rows="15" id="message"></textarea>
+
+    </div>
+
+    <!-- make sure you're using the same socket version in server and client -->
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
