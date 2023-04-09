@@ -1,1 +1,1 @@
-# node-experiments
+# node-stripe-experiments
