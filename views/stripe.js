@@ -1,4 +1,4 @@
-const stripe = Stripe("pk_test_51I7QKQBbq8Eqac2sUcKFGJdMED1jcRStgYhp4jYso99gSVOD169E5z6jbi41szCLE7A8w0KzZAfTFBcxkn9pzDju00fv8dmSOs");
+const stripe = Stripe("pk_test_51MvEJzFaVYZxmREee5KTqrVTfw2y1NpeiasJ3wXNIi0knDQp7sgU2oA8mxQPLA7ayKhUhih0CLU9o0LXFft585hL005342MeBi");
 const elements = stripe.elements();
 
 // Create our card inputs
