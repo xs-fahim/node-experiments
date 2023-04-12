@@ -1,8 +1,7 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "nodemon server.js",
-    "dev2": "nodemon app.js",
     "start": "node server.js"
   },
   "dependencies": {
