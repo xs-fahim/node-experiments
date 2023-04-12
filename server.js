@@ -1,41 +1,39 @@
-import cluster from "cluster"
-import http from "http"
+import cluster from "node:cluster"
 import express from "express"
-import redis from 'socket.io-redis';
-import fs from 'fs';
+import http from 'http'
 import cors from "cors"
 import path from "path"
 import os from "os"
 import { Server } from "socket.io"
-// import { Server } from "socket.io"
-import {cpus} from "os";
 import { setupMaster, setupWorker } from "@socket.io/sticky"
-import { createAdapter, setupPrimary }from "@socket.io/cluster-adapter"
+import { createAdapter, setupPrimary } from "@socket.io/cluster-adapter"
 // import { emit } from "process";
-let numCPUs = cpus().length
+let numCPUs = os.cpus().length
 const __dirname = path.resolve(path.dirname(''));
 
-const PORT = 3000;
+const PORT = 3001;
 const HOST = '0.0.0.0';
 
 if (cluster.isPrimary) {
   console.log(`Master ${process.pid} is running`);
+
+  // const app = express()
+
+  const app = http.createServer();
   // setup sticky sessions
-  // setupMaster(app, {
-  //   loadBalancingMethod: "least-connection",
-  // });
+  setupMaster(app, {
+    loadBalancingMethod: "least-connection",
+  });
 
   // setup connections between the workers
   setupPrimary();
   // needed for packets containing buffers (you can ignore it if you only send plaintext objects)
-  // Node.js < 16.0.0
+  // Node.js > 16.0.0
   // cluster.setupPrimary({
   //   serialization: "advanced",
   // });
-  // Node.js > 16.0.0
-  cluster.setupPrimary({
-    serialization: "advanced",
-  });
+
+  // app.listen(PORT)
 
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
@@ -43,9 +41,11 @@ if (cluster.isPrimary) {
 
   cluster.on("exit", (worker) => {
     console.log(`Worker ${worker.process.pid} died`);
-    cluster.fork();
+    console.log("Let's fork another worker!");
+    // cluster.fork();
   });
-} else {
+
+} else if (cluster.isWorker) {
   console.log(`Worker ${process.pid} started`);
   const app = express();
   app.use(express.json());
@@ -59,28 +59,33 @@ if (cluster.isPrimary) {
 
   app.use(express.static(__dirname + "/static/"));
 
+  const httpServer = http.createServer(app);
+
   // const httpServer = http.createServer();
   console.log(`'HTTP server started' on port ${PORT}`);
-  const httpServer = app.listen(+PORT, HOST, () => { });
+  const server = app.listen(+PORT, HOST, () => { });
 
   app.get('/', async (req, res) => {
     res.sendFile(__dirname + '/static/index.html');
   });
-  const io = new Server(httpServer, {transports: ['polling', 'websocket']});
 
-  // use the cluster adapter
-  io.adapter(createAdapter());
+  const io = new Server(httpServer,{
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"],
+      credentials: true
+    },
+    // transports: ['websocket'],
+    maxHttpBufferSize: 1e10,
+    pingInterval: 10000, // 10 seconds
+    pingTimeout: 60000, // 60 seconds
+  })
 
-  // setup connection with the primary process
-  setupWorker(io);
-
-  
   io.on("connection", function (socket) {
     console.log("Made socket connection");
     console.log(socket.handshake.headers);
 
     // await new myController().call();
-
     socket.on("disconnect", () => {
       console.log('disconnected', socket.id);
     });
@@ -95,4 +100,5 @@ if (cluster.isPrimary) {
     // }, 6000);
   });
 }
+
 

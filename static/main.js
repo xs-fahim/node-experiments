@@ -8,7 +8,7 @@ var log = (mgs, ctx) => {
 var connectSocket = () => {
     // const socket = io("http://localhost:3001?foo=bar");
     const socket = io({
-        transports: ['polling', 'websocket'],
+        // transports: ['websocket'],
         extraHeaders: {
             "Site-Token": "site-token",
             "Auth-Token": "auth-token"
