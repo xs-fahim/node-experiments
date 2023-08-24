@@ -1,12 +1,11 @@
 'use strict';
+require('dotenv').config();
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
+// const __dirname = path.resolve(path.dirname(''));
 
-import express from 'express';
-import path from 'path';
-import cors from 'cors';
-import dotenv from 'dotenv'; 
-const __dirname = path.resolve(path.dirname(''));
-
-dotenv.config()
+// dotenv.config()
 // Constants
 const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
@@ -24,7 +23,7 @@ app.use(function(req, res, next) {
 
 
 app.get('/', async (req, res) => {
-  res.sendFile(__dirname + '/static/index.html');
+  res.sendFile(path.resolve(path.dirname('')) + '/static/index.html');
 });
 
 app.get('/pool', async (req, res) => {
