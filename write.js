@@ -5,7 +5,7 @@ const { authenticate } = require('@google-cloud/local-auth');
 const { google } = require('googleapis');
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
+const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
@@ -70,22 +70,47 @@ async function authorize() {
  * @see https://docs.google.com/spreadsheets/d/12mFrYKCtO7xfzN58jrwLVk8tAgHjGla3hawhDIJ0trY/edit#gid=0
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
-async function listData(auth) {
+async function listMajors(auth) {
     const sheets = google.sheets({ version: 'v4', auth });
     const res = await sheets.spreadsheets.values.get({
         spreadsheetId: '12mFrYKCtO7xfzN58jrwLVk8tAgHjGla3hawhDIJ0trY',
-        range: `'Elements Kit'!A1:E1001`,
+        range: 'Sheet1!A2:F1000',
     });
     const rows = res.data.values;
     if (!rows || rows.length === 0) {
         console.log('No data found.');
         return;
     }
-    // console.log('Student Name', 'Gender', 'Class Level', 'Home', 'State', 'Major', 'Extracurricular Activity');
+    console.log('Student Name', 'Gender', 'Class Level', 'Home', 'State', 'Major', 'Extracurricular Activity');
     rows.forEach((row) => {
         // Print columns A and E, which correspond to indices 0 and 4.
-        console.log(`${row[0]}, ${row[1]}, ${row[2]}, ${row[3]}, ${row[4]}`);
+        console.log(`${row[0]}, ${row[1]},${row[2]}, ${row[3]},${row[4]},${row[5]}`);
     });
 }
 
-authorize().then(listData).catch(console.error);
+function writeData(auth) {
+    const sheets = google.sheets({ version: 'v4', auth });
+    let values = [
+        [
+            'Ornab', 'Male', 'Junior', 'Dhaka', 'Bangla', 'Football'
+        ],
+    ];
+    const resource = {
+        values,
+    };
+    sheets.spreadsheets.values.append({
+        spreadsheetId: '12mFrYKCtO7xfzN58jrwLVk8tAgHjGla3hawhDIJ0trY',
+        range: 'Sheet1!A3',
+        valueInputOption: 'RAW',
+        resource: resource,
+    }, (err, result) => {
+        if (err) {
+            // Handle error
+            console.log(err);
+        } else {
+            console.log('%d cells updated on range: %s', result.data.updates.updatedCells, result.data.updates.updatedRange);
+        }
+    });
+}
+
+authorize().then(writeData).catch(console.error);
