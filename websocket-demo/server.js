@@ -1,25 +1,29 @@
+require('dotenv').config();
 const express = require('express');
 const http = require('http');
-const WebSocket = require('ws');
+const { Server } = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ server });
+const io = new Server(server);
 
-wss.on('connection', (ws) => {
+app.use(express.static('static'));
+
+io.on('connection', (socket) => {
     console.log('New client connected');
-    ws.on('message', (message) => {
-        console.log(`Received: ${message}`);
-        ws.send(`Server received: ${message}`);
-    });
 
-    ws.on('close', () => {
+    const intervalId = setInterval(() => {
+        socket.emit('server_message', 'This is the message from server');
+    }, 3000);
+
+    socket.on('disconnect', () => {
         console.log('Client disconnected');
+        clearInterval(intervalId);
     });
 });
 
 app.get('/', (req, res) => {
-    res.send('WebSocket server is running');
+    res.sendFile(__dirname + '/static/index.html');
 });
 
 const PORT = process.env.PORT || 8080;

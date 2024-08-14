@@ -1,34 +1,29 @@
 import React, { useEffect, useState } from 'react';
+import io from 'socket.io-client';
 
 function App() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    const websocketUrl = process.env.REACT_APP_WEBSOCKET_URL;
-    const socket = new WebSocket(websocketUrl);
+    const socket = io('http://localhost:8080'); // Update the URL if your server runs on a different port
 
-    socket.onopen = () => {
-      console.log('WebSocket connection established');
-    };
+    socket.on('connect', () => {
+      console.log('Socket.io connection established');
+    });
 
-    socket.onmessage = (event) => {
-      setMessages((prevMessages) => [...prevMessages, event.data]);
-    };
+    socket.on('server_message', (msg) => {
+      console.log("🚀 ~ socket.on ~ msg:", msg)
+      setMessages((prevMessages) => [...prevMessages, msg]);
+    });
 
-    socket.onerror = (error) => {
-      console.error('WebSocket error:', error);
-    };
-
-    socket.onclose = () => {
-      console.log('WebSocket connection closed');
-    };
+    socket.on('disconnect', () => {
+      console.log('Socket.io connection closed');
+    });
 
     return () => {
       socket.close();
     };
   }, []);
-
-  console.log('messages', messages);
 
   return (
     <div className="App">
